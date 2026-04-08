@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Configurador de Materiales</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Imagen base -->
+
+    <div class="room">
+        <img src="baño2/baño2-base.jpg" class="base">
+
+    <!-- CAPA CON MÁSCARA (pared) -->
+        <div class="mask pared-frontal" id="pared-frontal"></div>
+        <div class="mask pared-lateral" id="pared-lateral"></div>
+    </div>
+
+    <!-- Panel de materiales -->
+
+    <div class="panel">
+        <h3>Materiales pared</h3>
+        <img src="materiales/nobuRoble.jpg" onclick="aplicarMaterial('pared-frontal','nobuRoble')">
+        <img src="materiales/calacataOro.jpg" onclick="aplicarMaterial('pared-frontal','calacataOro')">
+        <img src="materiales/linGris.jpg" onclick="aplicarMaterial('pared-frontal','linGris')">
+        <h3>Materiales pared lateral</h3>
+        <img src="materiales/nobuRoble.jpg" onclick="aplicarMaterial('pared-lateral','nobuRoble')">
+        <img src="materiales/calacataOro.jpg" onclick="aplicarMaterial('pared-lateral','calacataOro')">
+        <img src="materiales/linGris.jpg" onclick="aplicarMaterial('pared-lateral','linGris')">
+    </div>
+
+</div>
+
+<script>
+    //Vamos a hacer unas constantes, las cuales tendran por cada material las rutas de todas las imagenes disponibles
+    const materiales = {
+        nobuRoble:[
+            'materiales/nobuRoble.jpg',
+            'materiales/nobuRoble2.jpg',
+            'materiales/nobuRoble3.jpg'
+        ],
+        calacataOro:[
+            'materiales/calacataOro.jpg',
+            'materiales/calacataOro2.jpg',
+            'materiales/calacataOro3.jpg'
+        ],
+        linGris:[
+            'materiales/linGris.jpg'
+        ]
+    };
+
+    //Declaramos la funcion para aplicar el material, la cual recibe que se cambia y con que material
+    function aplicarMaterial(zonaCambiar,material){
+        //Declaramos una variable la cual almacenara las capas del material
+        const capas = materiales[material];
+        //Cogemos el elemento, que es la zona a cambiar
+        const elemento = document.getElementById(zonaCambiar);
+        
+        //Declaramos una funcion para numeros random
+        function rand(min,max){return Math.random() * (max-min)+min};
+
+        //Generamos todo dinamicamente con map para evitar problemas
+        const imagenes = capas.map(c=> `url(${c})`).join(', ');
+        const repetir = capas.map(()=> `repeat`).join(', ');
+        const tam = capas.map(() => `${rand(150,280)}px`).join(', ');
+        const positions = capas.map(() =>
+            `${rand(-1000,1000)}px ${rand(-1000,1000)}px`).join(', ');
+
+        //Declaramos un controlado para el numero de materiales que tengamos
+        const blendModes = capas.map((_,i) =>{
+            if (i === 0)return 'normal';
+            if (i === 1)return 'multiply';
+            return 'soft-ligth';
+        }).join(', ');
+
+        //Asignamos todo al elemento
+        elemento.style.backgroundImage = imagenes;
+        elemento.style.backgroundSize = tam;
+        elemento.style.backgroundRepeat = repetir;
+        elemento.style.backgroundBlendMode = 'normal';
+        elemento.style.backgroundPosition = positions;
+    }
+
+</script>
+
+</body>
+</html>
