@@ -26,7 +26,7 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
-
+filter: contrast(1.05) brightness(0.98);
 background-size: 300px;
 background-repeat: repeat;
 
@@ -70,6 +70,24 @@ mask-repeat: no-repeat;
   mask-size: 100% 100%;
   mask-repeat: no-repeat;
 }
+
+/* Especifico para suelo */
+.suelo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  -webkit-mask-image: url("baño2/baño2-mascara-suelo.png");
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+
+  mask-image: url("baño2/baño2-mascara-suelo.png");
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+}
+
 /* PANEL LATERAL */
 .panel {
 width: 30%;
