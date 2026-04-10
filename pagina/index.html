@@ -25,39 +25,64 @@
 
     <div class="panel">
         <h3>Materiales pared</h3>
-        <img src="materiales/nobuRoble.jpg" onclick="aplicarMaterial('pared-frontal','nobuRoble')">
-        <img src="materiales/calacataOro.png" onclick="aplicarMaterial('pared-frontal','calacataOro')">
-        <img src="materiales/linGris.jpg" onclick="aplicarMaterial('pared-frontal','linGris')">
+        <button onclick="CargarMateriales('pared', 'pared-frontal-list', 'pared-frontal')">Ver materiales</button>
         <h3>Materiales pared lateral</h3>
-        <img src="materiales/nobuRoble.jpg" onclick="aplicarMaterial('pared-lateral','nobuRoble')">
-        <img src="materiales/calacataOro.png" onclick="aplicarMaterial('pared-lateral','calacataOro')">
-        <img src="materiales/linGris.jpg" onclick="aplicarMaterial('pared-lateral','linGris')">
+        <button onclick="CargarMateriales('pared','pared-lateral-list', 'pared-lateral')">Ver materiales</button>
         <h3>Materiales suelo</h3>
-        <img src="materiales/nobuRoble.jpg" onclick="aplicarMaterial('suelo','nobuRoble')">
-        <img src="materiales/calacataOro.png" onclick="aplicarMaterial('suelo','calacataOro')">
-        <img src="materiales/linGris.jpg" onclick="aplicarMaterial('suelo','linGris')">
-    </div>
+        <button onclick="CargarMateriales('suelo','suelo-list', 'suelo')">Ver materiales</button>
 
+        <div id="popup" class="popup hidden">
+            <div class="popup-content" id="popup-content"></div>
+        </div>
+    </div>
 </div>
 
 <script>
-    //Vamos a hacer unas constantes, las cuales tendran por cada material las rutas de todas las imagenes disponibles
-    const materiales = {
-        nobuRoble:[
-            'materiales/nobuRobleMaterial.png',
-        ],
-        calacataOro:[
-            'materiales/calacataOroMaterial.png'
-        ],
-        linGris:[
-            'materiales/linGris.jpg'
-        ]
-    };
+    //Hacemos que si clica fuera del popup se cierre
+    document.getElementById("popup").addEventListener("click", function(e) {
+        if (e.target === this) {
+            this.classList.add("hidden");
+        }
+    });
+    async function CargarMateriales(zona, zonaIMGList, zonaIMG) {
+        //Declaramos y cogemos donde se cargan los materiales
+        const popup = document.getElementById('popup');
+        const contenedor = document.getElementById("popup-content");
+
+        popup.classList.remove("hidden");
+        contenedor.innerHTML = "Cargando...";
+        
+        const res = await fetch("productos.json");
+        const materiales = await res.json();
+        contenedor.innerHTML="";
+        //Hacemos un bucle iterable para pasar por todos los productos
+        materiales.forEach(material => {
+            //Comprobamos primero si podemos ponerlo en la zona indicada
+            if(material.aplicacion.includes(zona)){
+                //Creamos el elemento de imagen y le añadimos todos los campos
+                const img = document.createElement("img");
+                img.src = material.muestra;
+                img.title = material.nombre;
+                
+                //Añadimos un poco de style
+                img.style.width = "80px";
+                img.style.height = "80px";
+                img.style.cursor = "pointer";
+                img.style.margin = "5px";
+
+                img.onclick = () =>{ 
+                    aplicarMaterial(zonaIMG, material);
+                    popup.classList.add("hidden");
+                }
+                contenedor.appendChild(img);
+            }
+        });
+    }
 
     //Declaramos la funcion para aplicar el material, la cual recibe que se cambia y con que material
     function aplicarMaterial(zonaCambiar,material){
         //Declaramos una variable la cual almacenara las capas del material
-        const capas = materiales[material];
+        const capas = [material.material];
         //Cogemos el elemento, que es la zona a cambiar
         const elemento = document.getElementById(zonaCambiar);
         
@@ -67,7 +92,7 @@
         //Generamos todo dinamicamente con map para evitar problemas
         const imagenes = capas.map(c=> `url(${c})`).join(', ');
         const tam = capas.map(() => `${rand(200,280)}`).join(', ');
-        const repetir = capas.map(()=> `round`).join(', ');
+        const repetir = capas.map(()=> `repeat`).join(', ');
         const positions = capas.map(() =>
             `${rand(0,500)}px ${rand(0,500)}px`).join(', ');
 

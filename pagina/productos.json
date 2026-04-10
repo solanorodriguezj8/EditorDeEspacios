@@ -1,0 +1,277 @@
+[
+    {
+        "nombre": "Limestone wall Sand",
+        "enlace": "https://www.marazzi.es/colecciones/limestone-wall-colecciones/",
+        "muestra": "materiales/limestoneWallArena.jpg",
+        "material": "materiales/limestoneWallArenaMaterial.jpg",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre": "Calacata Oro",
+        "enlace": "https://www.pamesa.com/serie/CALACATAGOLD.html?s=765",
+        "muestra": "materiales/calacataOro.png",
+        "material": "materiales/calacataOroMaterial.png",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre": "Nobu Roble",
+        "enlace": "https://productfinder.porcelanosagrupo.com/es/baldosas_ceramicas/nobu_roble_g.html",
+        "muestra": "materiales/nobuRoble.jpg",
+        "material": "materiales/nobuRobleMaterial.png",
+        "aplicacion": ["pared", "suelo"]
+    },
+    {
+        "nombre": "Limestone wall Ivory",
+        "enlace": "https://www.marazzi.es/colecciones/limestone-wall-colecciones/",
+        "muestra": "materiales/limestoneWallMarfil.jpg",
+        "material": "materiales/limestoneWallMarfilMaterial.jpg",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre": "Limestone wall Taupe",
+        "enlace": "https://www.marazzi.es/colecciones/limestone-wall-colecciones/",
+        "muestra": "materiales/limestoneWallTaupe.jpg",
+        "material": "materiales/limestoneWallTaupeMaterial.jpg",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre": "Limestone wall Sand 3D",
+        "enlace": "https://www.marazzi.es/colecciones/limestone-wall-colecciones/",
+        "muestra": "materiales/limestoneWallSand3D.jpg",
+        "material": "materiales/limestoneWallSand3DMaterial.jpg",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre": "Limestone wall Ivory 3D",
+        "enlace": "https://www.marazzi.es/colecciones/limestone-wall-colecciones/",
+        "muestra": "materiales/limestoneWallIvory3D.jpg",
+        "material": "materiales/limestoneWallIvory3DMaterial.jpg",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre": "Limestone wall Taupe 3D",
+        "enlace": "https://www.marazzi.es/colecciones/limestone-wall-colecciones/",
+        "muestra": "materiales/limestoneWallTaupe3D.jpg",
+        "material": "materiales/limestoneWallTaupe3DMaterial.jpg",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre": "Limestone Wall Agrifoglio Ivory",
+        "enlace": "https://www.marazzi.es/colecciones/limestone-wall-colecciones/",
+        "muestra": "materiales/limestoneWallAgrifoglioIvory.jpg",
+        "material": "materiales/limestoneWallAgrifoglioIvoryMaterial.jpg",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre": "Limestone Wall Agrifoglio Sand",
+        "enlace": "https://www.marazzi.es/colecciones/limestone-wall-colecciones/",
+        "muestra": "materiales/limestoneWallAgrifoglioSand.jpg",
+        "material": "materiales/limestoneWallAgrifoglioSandMaterial.jpg",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre" : "Limestone wall Losanga Ivory",
+        "enlace" : "https://www.marazzi.es/colecciones/limestone-wall-colecciones/",
+        "muestra": "materiales/limestoneWallLosangaIvory.jpg",
+        "material": "materiales/limestoneWallLosangaIvoryMaterial.jpg",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre" : "Malmo Cipres",
+        "enlace" : "https://www.grespania.com/es/productos/grespania-malmo-cipres-natural-45x120-8-mm?_gl=1*8lr879*_up*MQ..*_ga*MTc5MzY2NTE5Ny4xNzc1ODE3NjIy*_ga_Z7D0L5F1YW*czE3NzU4MTc2MjEkbzEkZzEkdDE3NzU4MTc3MDYkajYwJGwwJGgw",
+        "muestra": "materiales/malmoCipres.jpg",
+        "material": "materiales/malmoCipresMaterial.jpg",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre" : "Malmo Fresno",
+        "enlace" : "https://www.grespania.com/es/productos/grespania-malmo-fresno-natural-45x120-8-mm?_gl=1*1nho4rm*_up*MQ..*_ga*MTc5MzY2NTE5Ny4xNzc1ODE3NjIy*_ga_Z7D0L5F1YW*czE3NzU4MTc2MjEkbzEkZzAkdDE3NzU4MTc2MjEkajYwJGwwJGgw",
+        "muestra": "materiales/malmoFresno.jpg",
+        "material": "materiales/malmoFresnoMaterial.jpg",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre": "Malmo Roble",
+        "enlace": "https://www.grespania.com/es/productos/grespania-malmo-roble-natural-45x120-8-mm?_gl=1*zaer4m*_up*MQ..*_ga*MTc5MzY2NTE5Ny4xNzc1ODE3NjIy*_ga_Z7D0L5F1YW*czE3NzU4MTc2MjEkbzEkZzEkdDE3NzU4MTc2MjMkajU4JGwwJGgw",
+        "muestra": "materiales/malmoRoble.jpg",
+        "material": "materiales/malmoRobleMaterial.jpg",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre" : "Casablanca Laila Blanco",
+        "enlace" : "https://www.grespania.com/es/productos/grespania-laila-blanco-natural-30x90-8-mm?_gl=1*1wscg9c*_up*MQ..*_ga*Njg5MTc2NDU2LjE3NzU4MTYwMjM.*_ga_Z7D0L5F1YW*czE3NzU4MTYwMjMkbzEkZzEkdDE3NzU4MTYyMjEkajYwJGwwJGgw",
+        "muestra" : "materiales/CasablancaLailaBlanco.webp",
+        "material" : "materiales/CasablancaLailaBlancoMaterial.webp",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre" : "Casablanca Raina Blanco",
+        "enlace" : "https://www.grespania.com/es/productos/grespania-rania-blanco-natural-30x90-8-mm?_gl=1*11chmzz*_up*MQ..*_ga*Njg5MTc2NDU2LjE3NzU4MTYwMjM.*_ga_Z7D0L5F1YW*czE3NzU4MTYwMjMkbzEkZzEkdDE3NzU4MTYzNTIkajYwJGwwJGgw",
+        "muestra" : "materiales/CasablancaRainaBlanco.webp",
+        "material" : "materiales/CasablancaRainaBlancoMaterial.webp",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre" : "Casablanca Sauco Cipres",
+        "enlace" : "https://www.grespania.com/es/productos/grespania-sauco-cipres-natural-30x90-8-mm?_gl=1*1ijm6b*_up*MQ..*_ga*Njg5MTc2NDU2LjE3NzU4MTYwMjM.*_ga_Z7D0L5F1YW*czE3NzU4MTYwMjMkbzEkZzEkdDE3NzU4MTY0MTQkajU4JGwwJGgw",
+        "muestra" : "materiales/CasablancaSaucoCipres.webp",
+        "material" : "materiales/CasablancaSaucoCipresMaterial.webp",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre" : "Casablanca Sauco Fresno",
+        "enlace" : "https://www.grespania.com/es/productos/grespania-sauco-fresno-natural-30x90-8-mm?_gl=1*1dny0a8*_up*MQ..*_ga*Njg5MTc2NDU2LjE3NzU4MTYwMjM.*_ga_Z7D0L5F1YW*czE3NzU4MTYwMjMkbzEkZzEkdDE3NzU4MTY2MzAkajU4JGwwJGgw",
+        "muestra" : "materiales/CasablancaSaucoFresno.webp",
+        "material" : "materiales/CasablancaSaucoFresnoMaterial.webp",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre" : "Casablanca Sauco Roble",
+        "enlace" : "https://www.grespania.com/es/productos/grespania-sauco-roble-natural-30x90-8-mm?_gl=1*19w4oec*_up*MQ..*_ga*Njg5MTc2NDU2LjE3NzU4MTYwMjM.*_ga_Z7D0L5F1YW*czE3NzU4MTYwMjMkbzEkZzEkdDE3NzU4MTY2MzIkajU2JGwwJGgw",
+        "muestra" : "materiales/CasablancaSaucoRoble.webp",
+        "material" : "materiales/CasablancaSaucoRobleMaterial.webp",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre" : "Casablanca Tineo Fresno",
+        "enlace" : "https://www.grespania.com/es/productos/grespania-tineo-fresno-natural-30x90-8-mm?_gl=1*1lqsxmq*_up*MQ..*_ga*Njg5MTc2NDU2LjE3NzU4MTYwMjM.*_ga_Z7D0L5F1YW*czE3NzU4MTYwMjMkbzEkZzEkdDE3NzU4MTY2NzQkajE0JGwwJGgw",
+        "muestra" : "materiales/CasablancaTineoFresno.webp",
+        "material" : "materiales/CasablancaTineoFresnoMaterial.webp",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre" : "Casablanca Tineo Roble",
+        "enlace" : "https://www.grespania.com/es/productos/grespania-tineo-roble-natural-30x90-8-mm?_gl=1*1kn0wx7*_up*MQ..*_ga*Njg5MTc2NDU2LjE3NzU4MTYwMjM.*_ga_Z7D0L5F1YW*czE3NzU4MTYwMjMkbzEkZzEkdDE3NzU4MTcwODMkajYwJGwwJGgw",
+        "muestra" : "materiales/CasablancaTineoRoble.webp",
+        "material" : "materiales/CasablancaTineoRobleMaterial.webp",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Casablanca Tineo Cipres",
+        "enlace" : "https://www.grespania.com/es/productos/grespania-tineo-cipres-natural-30x90-8-mm?_gl=1*dk24i*_up*MQ..*_ga*Njg5MTc2NDU2LjE3NzU4MTYwMjM.*_ga_Z7D0L5F1YW*czE3NzU4MTYwMjMkbzEkZzEkdDE3NzU4MTY2NzYkajEyJGwwJGgw",
+        "muestra" : "materiales/CasablancaTineoCipres.webp",
+        "material" : "materiales/CasablancaTineoCipresMaterial.webp",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Buro Ebano",
+        "enlace" : "https://www.grespania.com/es/pdf-collection/349?_gl=1*13cewe1*_up*MQ..*_ga*MTgxMjAxMjAyOS4xNzc1ODE4MDI1*_ga_Z7D0L5F1YW*czE3NzU4MTgwMjUkbzEkZzAkdDE3NzU4MTgwMjUkajYwJGwwJGgw",
+        "muestra" : "materiales/buroEbano.jpg",
+        "material" : "materiales/buroEbanoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Buro Iroko",
+        "enlace" : "https://www.grespania.com/es/pdf-collection/349?_gl=1*13cewe1*_up*MQ..*_ga*MTgxMjAxMjAyOS4xNzc1ODE4MDI1*_ga_Z7D0L5F1YW*czE3NzU4MTgwMjUkbzEkZzAkdDE3NzU4MTgwMjUkajYwJGwwJGgw",
+        "muestra" : "materiales/buroIroko.jpg",
+        "material" : "materiales/buroIrokoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Buro Roble",
+        "enlace" : "https://www.grespania.com/es/pdf-collection/349?_gl=1*13cewe1*_up*MQ..*_ga*MTgxMjAxMjAyOS4xNzc1ODE4MDI1*_ga_Z7D0L5F1YW*czE3NzU4MTgwMjUkbzEkZzAkdDE3NzU4MTgwMjUkajYwJGwwJGgw",
+        "muestra" : "materiales/buroRoble.jpg",
+        "material" : "materiales/buroRobleMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cementum Wall Sand",
+        "enlace" : "https://www.marazzi.es/colecciones/cementum-wall-colecciones/",
+        "muestra" : "materiales/cementumWallSand.jpg",
+        "material" : "materiales/cementumWallSandMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cementum Wall Ash",
+        "enlace" : "https://www.marazzi.es/colecciones/cementum-wall-colecciones/",
+        "muestra" : "materiales/cementumWallAsh.jpg",
+        "material" : "materiales/cementumWallAshMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cementum Wall Indigo",
+        "enlace" : "https://www.marazzi.es/colecciones/cementum-wall-colecciones/",
+        "muestra" : "materiales/cementumWallIndigo.jpg",
+        "material" : "materiales/cementumWallIndigoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cementum Wall Nickel",
+        "enlace" : "https://www.marazzi.es/colecciones/cementum-wall-colecciones/",
+        "muestra" : "materiales/cementumWallNickel.jpg",
+        "material" : "materiales/cementumWallNickelMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cementum Wall 3D Sand",
+        "enlace" : "https://www.marazzi.es/colecciones/cementum-wall-colecciones/",
+        "muestra" : "materiales/cementumWall3DSand.jpg",
+        "material" : "materiales/cementumWall3DSandMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cementum Wall 3D Ash",
+        "enlace" : "https://www.marazzi.es/colecciones/cementum-wall-colecciones/",
+        "muestra" : "materiales/cementumWall3DAsh.jpg",
+        "material" : "materiales/cementumWall3DAshMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cementum Wall 3D Indigo",
+        "enlace" : "https://www.marazzi.es/colecciones/cementum-wall-colecciones/",
+        "muestra" : "materiales/cementumWall3DIndigo.jpg",
+        "material" : "materiales/cementumWall3DIndigoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cementum Wall 3D Nickel",
+        "enlace" : "https://www.marazzi.es/colecciones/cementum-wall-colecciones/",
+        "muestra" : "materiales/cementumWall3DNickel.jpg",
+        "material" : "materiales/cementumWall3DNickelMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cementum Wall Flowery Touch Caldo",
+        "enlace" : "https://www.marazzi.es/colecciones/cementum-wall-colecciones/",
+        "muestra" : "materiales/cementumWallfloweryTouchCaldo.jpg",
+        "material" : "materiales/cementumWallfloweryTouchCaldoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cementum Wall Urban Touch Caldo",
+        "enlace" : "https://www.marazzi.es/colecciones/cementum-wall-colecciones/",
+        "muestra" : "materiales/cementumWallUrbanTouchCaldo.jpg",
+        "material" : "materiales/cementumWallUrbanTouchCaldoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cementum Wall Flowery Touch Freddo",
+        "enlace" : "https://www.marazzi.es/colecciones/cementum-wall-colecciones/",
+        "muestra" : "materiales/cementumWallfloweryTouchFreddo.jpg",
+        "material" : "materiales/cementumWallfloweryTouchFreddoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cementum Wall Urban Touch Freddo",
+        "enlace" : "https://www.marazzi.es/colecciones/cementum-wall-colecciones/",
+        "muestra" : "materiales/cementumWallUrbanTouchFreddo.jpg",
+        "material" : "materiales/cementumWallUrbanTouchFreddoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    }
+
+    ,
+    {
+        "nombre" : "Allmarble Wall Pavé 3D Statuario",
+        "enlace" : "https://www.marazzi.es/colecciones/allmarble-wall-colecciones/",
+        "muestra" : "materiales/allmarbleWallPave3DStatuario.jpg",
+        "material" : "materiales/allmarbleWallPave3DStatuarioMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Allmarble Wall Pavé 3D Golden White",
+        "enlace" : "https://www.marazzi.es/colecciones/allmarble-wall-colecciones/",
+        "muestra" : "materiales/allmarbleWallPave3DGoldenWhite.jpg",
+        "material" : "materiales/allmarbleWallPave3DGoldenWhiteMaterial.jpg",
+        "aplicacion" : ["pared"]
+    }
+]
