@@ -17,8 +17,12 @@
 
     <!-- CAPA CON MÁSCARA (pared) -->
         <div class="mask pared-frontal" id="pared-frontal"></div>
-        <div class="mask pared-lateral" id="pared-lateral"></div>
-        <div class="mask suelo" id="suelo"></div>
+        <div class="mask pared-lateral" id="pared-lateral">
+            <div class="texturaLateral"></div>
+        </div>
+        <div class="mask suelo" id="suelo">
+            <div class="texturaSuelo"></div>
+        </div>
     </div>
 
     <!-- Panel de materiales -->
@@ -84,14 +88,21 @@
         //Declaramos una variable la cual almacenara las capas del material
         const capas = [material.material];
         //Cogemos el elemento, que es la zona a cambiar
-        const elemento = document.getElementById(zonaCambiar);
+        let elemento;
+        if(zonaCambiar === "suelo"){
+            elemento = document.querySelector("#suelo .texturaSuelo");
+        }else if(zonaCambiar === "pared-lateral"){
+            elemento = document.querySelector("#pared-lateral .texturaLateral");
+        }else{
+            elemento = document.getElementById(zonaCambiar);
+        }
         
         //Declaramos una funcion para numeros random
         function rand(min,max){return Math.random() * (max-min)+min};
 
         //Generamos todo dinamicamente con map para evitar problemas
         const imagenes = capas.map(c=> `url(${c})`).join(', ');
-        const tam = capas.map(() => `${rand(200,280)}`).join(', ');
+        const tam = capas.map(() => `${rand(200,250)}`).join(', ');
         const repetir = capas.map(()=> `repeat`).join(', ');
         const positions = capas.map(() =>
             `${rand(0,500)}px ${rand(0,500)}px`).join(', ');
