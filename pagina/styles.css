@@ -11,7 +11,7 @@ display: flex;
 /* CONTENEDOR IMAGEN */
 .room {
 position: relative;
-width: 70%;
+width: 80%;
 }
 
 .base {
@@ -95,10 +95,10 @@ mask-repeat: no-repeat;
   width: 120%;
   height: 100%;
 
-  background-size: 300px;
+  background-size: 250px;
   background-repeat: repeat;
 
-  transform: skewX(-30deg) scaleY(0.55);
+  transform: skewX(-15deg) scaleY(0.60);
   transform-origin: bottom left;
 }
 
