@@ -1,0 +1,36 @@
+{
+    "espacios" : [
+        {
+            "id" : "bañoCalacata",
+            "imagen" : "bañoCalacata/baño-calacata-base.jpg",
+            "zonas" : {
+                "pared-lateral" : {
+                    "mask" : "bañoCalacata/baño-calacata-mascara-pared-lateral.png",
+                    "tipo" : "pared-lateral"
+                },
+                "suelo" : {
+                    "mask" : "bañoCalacata/baño-calacata-mascara-suelo.png",
+                    "tipo" : "suelo"
+                }
+            }
+        },
+        {
+            "id" : "bañoBogart",
+            "imagen" : "bañoBogart/baño2-base.jpg",
+            "zonas" : {
+                "pared-lateral" : {
+                    "mask" : "bañoBogart/baño2-mascara-pared-lateral.png",
+                    "tipo" : "pared-lateral"
+                },
+                "pared-frontal" : {
+                    "mask" : "bañoBogart/baño2-mascara-pared-frontal.png",
+                    "tipo" : "pared"
+                },
+                "suelo" : {
+                    "mask" : "bañoBogart/baño2-mascara-suelo.png",
+                    "tipo" : "suelo"
+                }
+            }
+        }
+    ]
+}

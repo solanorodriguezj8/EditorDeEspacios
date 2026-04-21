@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Configurador de Materiales</title>
+  <link rel="stylesheet" href="../stylesEspacios.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Imagen base -->
+
+    <div class="room" id = "room">
+        <!--<img src="baño2/baño2-base.jpg" class="base">
+
+    
+        <div class="mask pared-frontal" id="pared-frontal"></div>
+        <div class="mask pared-lateral" id="pared-lateral">
+            <div class="texturaLateral"></div>
+        </div>
+        <div class="mask suelo" id="suelo">
+            <div class="texturaSuelo"></div>
+        </div>-->
+    </div>
+
+     <!--Panel de materiales -->
+
+    <div class="panel">
+        <h3>Materiales pared</h3>
+        <button onclick="CargarMateriales('pared', 'pared-frontal-list', 'pared-frontal')">Ver materiales</button>
+        <h3>Materiales pared lateral</h3>
+        <button onclick="CargarMateriales('pared','pared-lateral-list', 'pared-lateral')">Ver materiales</button>
+        <h3>Materiales suelo</h3>
+        <button onclick="CargarMateriales('suelo','suelo-list', 'suelo')">Ver materiales</button>
+
+        <div id="popup" class="popup hidden">
+            <div class="popup-content" id="popup-content"></div>
+        </div>
+    </div>
+</div>
+<!--
+<script>
+    //Hacemos que si clica fuera del popup se cierre
+    document.getElementById("popup").addEventListener("click", function(e) {
+        if (e.target === this) {
+            this.classList.add("hidden");
+        }
+    });
+    async function CargarMateriales(zona, zonaIMGList, zonaIMG) {
+        //Declaramos y cogemos donde se cargan los materiales
+        const popup = document.getElementById('popup');
+        const contenedor = document.getElementById("popup-content");
+
+        popup.classList.remove("hidden");
+        contenedor.innerHTML = "Cargando...";
+        
+        const res = await fetch("productos.json");
+        let materiales = await res.json();
+        contenedor.innerHTML="";
+        //Ordenamos los materiales por su serie
+        const agrupados = materiales.reduce((acc,material)=>{
+            if(!acc[material.serie]) acc[material.serie] = [];
+            acc[material.serie].push(material);
+            return acc;
+        },{});
+
+        //Hacemos un bucle iterable de materiales, dentro de otro que contiene los grupos de materiales
+        Object.entries(agrupados).forEach(([serie, productos]) => {
+            if(productos.some(material=>material.aplicacion.includes(zona))){
+                const titulo = document.createElement('h3');
+                
+                titulo.textContent = serie;
+                //Le metemos un poco de style para que quede separado de los materiales
+                titulo.style.borderBottom = "2px solid #ddd";
+                titulo.style.marginRight = "100%";
+
+                contenedor.appendChild(titulo);
+            }
+
+                productos.forEach(material => {
+                    if (material.aplicacion.includes(zona)) {
+                        //Creamos el elemento de imagen y le añadimos todos los campos
+                        const img = document.createElement("img");
+                        img.src = material.muestra;
+                        img.title = material.nombre;
+                        
+                        //Añadimos un poco de style
+                        img.style.width = "80px";
+                        img.style.height = "80px";
+                        img.style.cursor = "pointer";
+                        img.style.margin = "5px";
+
+                        img.onclick = () =>{ 
+                            aplicarMaterial(zonaIMG, material);
+                            popup.classList.add("hidden");
+                        }
+                        contenedor.appendChild(img);
+                    }
+                });
+        });
+    }
+
+    //Declaramos la funcion para aplicar el material, la cual recibe que se cambia y con que material
+    function aplicarMaterial(zonaCambiar,material){
+        //Declaramos una variable la cual almacenara las capas del material
+        const capas = [material.material];
+        //Cogemos el elemento, que es la zona a cambiar
+        let elemento;
+        if(zonaCambiar === "suelo"){
+            elemento = document.querySelector("#suelo .texturaSuelo");
+        }else if(zonaCambiar === "pared-lateral"){
+            elemento = document.querySelector("#pared-lateral .texturaLateral");
+        }else{
+            elemento = document.getElementById(zonaCambiar);
+        }
+        
+        //Declaramos una funcion para numeros random
+        function rand(min,max){return Math.random() * (max-min)+min};
+
+        //Generamos todo dinamicamente con map para evitar problemas
+        const imagenes = capas.map(c=> `url(${c})`).join(', ');
+        const tam = capas.map(() => `${rand(200,250)}`).join(', ');
+        const repetir = capas.map(()=> `repeat`).join(', ');
+        const positions = capas.map(() =>
+            `${rand(0,500)}px ${rand(0,500)}px`).join(', ');
+
+        //Asignamos todo al elemento
+        elemento.style.backgroundImage = imagenes;
+        elemento.style.backgroundSize = tam;
+        elemento.style.backgroundRepeat = repetir;
+        elemento.style.backgroundBlendMode = 'normal';
+        elemento.style.backgroundPosition = positions;
+    }
+
+</script>
+-->
+<script>
+// ==========================
+// CONFIGURADOR DINÁMICO
+// ==========================
+
+const room = document.getElementById("room");
+
+// leer parámetro de la URL
+const params = new URLSearchParams(window.location.search);
+const espacioID = params.get("espacio");
+
+// cargar espacio desde JSON
+async function cargarEspacio(){
+    const res = await fetch("./espacios.json");
+    const data = await res.json();
+
+    const espacio = data.espacios.find(e => e.id === espacioID);
+
+    if(!espacio){
+        console.error("Espacio no encontrado");
+        return;
+    }
+
+    // imagen base
+    const img = document.createElement("img");
+    img.src = espacio.imagen;
+    img.classList.add("base");
+    room.appendChild(img);
+
+    // zonas dinámicas
+    Object.entries(espacio.zonas).forEach(([id, zona]) => {
+
+        const div = document.createElement("div");
+        div.id = id;
+        div.classList.add("mask");
+
+        div.style.maskImage = `url(${zona.mask})`;
+        div.style.webkitMaskImage = `url(${zona.mask})`;
+
+        // añadir textura si hace falta
+        if(zona.tipo === "suelo"){
+            const tex = document.createElement("div");
+            tex.classList.add("texturaSuelo");
+            div.appendChild(tex);
+        }
+
+        if(zona.tipo === "pared-lateral"){
+            const tex = document.createElement("div");
+            tex.classList.add("texturaLateral");
+            div.appendChild(tex);
+        }
+
+        room.appendChild(div);
+    });
+}
+
+cargarEspacio();
+
+
+// ==========================
+// POPUP MATERIALES
+// ==========================
+
+// cerrar popup al clicar fuera
+document.getElementById("popup").addEventListener("click", function(e) {
+    if (e.target === this) {
+        this.classList.add("hidden");
+    }
+});
+
+async function CargarMateriales(zona, zonaIMGList, zonaIMG) {
+
+    const popup = document.getElementById('popup');
+    const contenedor = document.getElementById("popup-content");
+
+    popup.classList.remove("hidden");
+    contenedor.innerHTML = "Cargando...";
+    
+    const res = await fetch("productos.json");
+    let materiales = await res.json();
+
+    contenedor.innerHTML = "";
+
+    // agrupar por serie
+    const agrupados = materiales.reduce((acc,material)=>{
+        if(!acc[material.serie]) acc[material.serie] = [];
+        acc[material.serie].push(material);
+        return acc;
+    },{});
+
+    Object.entries(agrupados).forEach(([serie, productos]) => {
+
+        if(productos.some(material=>material.aplicacion.includes(zona))){
+            const titulo = document.createElement('h3');
+            titulo.textContent = serie;
+            titulo.style.borderBottom = "2px solid #ddd";
+            titulo.style.marginRight = "100%";
+            contenedor.appendChild(titulo);
+        }
+
+        productos.forEach(material => {
+            if (material.aplicacion.includes(zona)) {
+
+                const img = document.createElement("img");
+                img.src = material.muestra;
+                img.title = material.nombre;
+
+                img.style.width = "80px";
+                img.style.height = "80px";
+                img.style.cursor = "pointer";
+                img.style.margin = "5px";
+
+                img.onclick = () =>{ 
+                    aplicarMaterial(zonaIMG, material);
+                    popup.classList.add("hidden");
+                }
+
+                contenedor.appendChild(img);
+            }
+        });
+    });
+}
+
+
+// ==========================
+// APLICAR MATERIAL
+// ==========================
+
+function aplicarMaterial(zonaCambiar,material){
+
+    const capas = [material.material];
+
+    let elemento;
+
+    if(zonaCambiar === "suelo"){
+        elemento = document.querySelector("#suelo .texturaSuelo");
+    }else if(zonaCambiar === "pared-lateral"){
+        elemento = document.querySelector("#pared-lateral .texturaLateral");
+    }else{
+        elemento = document.getElementById(zonaCambiar);
+    }
+
+    function rand(min,max){return Math.random() * (max-min)+min};
+
+    const imagenes = capas.map(c=> `url(${c})`).join(', ');
+    const tam = capas.map(() => `${rand(200,250)}px`).join(', ');
+    const repetir = capas.map(()=> `repeat`).join(', ');
+    const positions = capas.map(() =>
+        `${rand(0,500)}px ${rand(0,500)}px`).join(', ');
+
+    elemento.style.backgroundImage = imagenes;
+    elemento.style.backgroundSize = tam;
+    elemento.style.backgroundRepeat = repetir;
+    elemento.style.backgroundPosition = positions;
+}
+</script>
+</body>
+</html>

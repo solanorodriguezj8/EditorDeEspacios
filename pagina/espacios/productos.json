@@ -1,0 +1,2018 @@
+[
+    {
+        "nombre": "Calacata Oro",
+        "serie" : "CALACATA",
+        "enlace": "https://www.pamesa.com/serie/CALACATAGOLD.html?s=765",
+        "muestra": "materiales/calacataOro.png",
+        "material": "materiales/calacataOroMaterial.png",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre": "Nobu Roble",
+        "serie" : "NOBU",
+        "enlace": "https://productfinder.porcelanosagrupo.com/es/baldosas_ceramicas/nobu_roble_g.html",
+        "muestra": "materiales/nobuRoble.jpg",
+        "material": "materiales/nobuRobleMaterial.png",
+        "aplicacion": ["pared", "suelo"]
+    },
+    {
+        "nombre": "Limestone wall Sand",
+        "serie" : "LIMESTONE WALL",
+        "enlace": "https://www.marazzi.es/colecciones/limestone-wall-colecciones/",
+        "muestra": "materiales/limestoneWallArena.jpg",
+        "material": "materiales/limestoneWallArenaMaterial.jpg",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre": "Limestone wall Ivory",
+        "serie" : "LIMESTONE WALL",
+        "enlace": "https://www.marazzi.es/colecciones/limestone-wall-colecciones/",
+        "muestra": "materiales/limestoneWallMarfil.jpg",
+        "material": "materiales/limestoneWallMarfilMaterial.jpg",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre": "Limestone wall Taupe",
+        "serie" : "LIMESTONE WALL",
+        "enlace": "https://www.marazzi.es/colecciones/limestone-wall-colecciones/",
+        "muestra": "materiales/limestoneWallTaupe.jpg",
+        "material": "materiales/limestoneWallTaupeMaterial.jpg",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre": "Limestone wall Sand 3D",
+        "serie" : "LIMESTONE WALL",
+        "enlace": "https://www.marazzi.es/colecciones/limestone-wall-colecciones/",
+        "muestra": "materiales/limestoneWallSand3D.jpg",
+        "material": "materiales/limestoneWallSand3DMaterial.jpg",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre": "Limestone wall Ivory 3D",
+        "serie" : "LIMESTONE WALL",
+        "enlace": "https://www.marazzi.es/colecciones/limestone-wall-colecciones/",
+        "muestra": "materiales/limestoneWallIvory3D.jpg",
+        "material": "materiales/limestoneWallIvory3DMaterial.jpg",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre": "Limestone wall Taupe 3D",
+        "serie" : "LIMESTONE WALL",
+        "enlace": "https://www.marazzi.es/colecciones/limestone-wall-colecciones/",
+        "muestra": "materiales/limestoneWallTaupe3D.jpg",
+        "material": "materiales/limestoneWallTaupe3DMaterial.jpg",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre": "Limestone Wall Agrifoglio Ivory",
+        "serie" : "LIMESTONE WALL",
+        "enlace": "https://www.marazzi.es/colecciones/limestone-wall-colecciones/",
+        "muestra": "materiales/limestoneWallAgrifoglioIvory.jpg",
+        "material": "materiales/limestoneWallAgrifoglioIvoryMaterial.jpg",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre": "Limestone Wall Agrifoglio Sand",
+        "serie" : "LIMESTONE WALL",
+        "enlace": "https://www.marazzi.es/colecciones/limestone-wall-colecciones/",
+        "muestra": "materiales/limestoneWallAgrifoglioSand.jpg",
+        "material": "materiales/limestoneWallAgrifoglioSandMaterial.jpg",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre" : "Limestone wall Losanga Ivory",
+        "serie" : "LIMESTONE WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/limestone-wall-colecciones/",
+        "muestra": "materiales/limestoneWallLosangaIvory.jpg",
+        "material": "materiales/limestoneWallLosangaIvoryMaterial.jpg",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre" : "Malmo Cipres",
+        "serie" : "MALMO",
+        "enlace" : "https://www.grespania.com/es/productos/grespania-malmo-cipres-natural-45x120-8-mm?_gl=1*8lr879*_up*MQ..*_ga*MTc5MzY2NTE5Ny4xNzc1ODE3NjIy*_ga_Z7D0L5F1YW*czE3NzU4MTc2MjEkbzEkZzEkdDE3NzU4MTc3MDYkajYwJGwwJGgw",
+        "muestra": "materiales/malmoCipres.jpg",
+        "material": "materiales/malmoCipresMaterial.jpg",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre" : "Malmo Fresno",
+        "serie" : "MALMO",
+        "enlace" : "https://www.grespania.com/es/productos/grespania-malmo-fresno-natural-45x120-8-mm?_gl=1*1nho4rm*_up*MQ..*_ga*MTc5MzY2NTE5Ny4xNzc1ODE3NjIy*_ga_Z7D0L5F1YW*czE3NzU4MTc2MjEkbzEkZzAkdDE3NzU4MTc2MjEkajYwJGwwJGgw",
+        "muestra": "materiales/malmoFresno.jpg",
+        "material": "materiales/malmoFresnoMaterial.jpg",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre": "Malmo Roble",
+        "serie" : "MALMO",
+        "enlace": "https://www.grespania.com/es/productos/grespania-malmo-roble-natural-45x120-8-mm?_gl=1*zaer4m*_up*MQ..*_ga*MTc5MzY2NTE5Ny4xNzc1ODE3NjIy*_ga_Z7D0L5F1YW*czE3NzU4MTc2MjEkbzEkZzEkdDE3NzU4MTc2MjMkajU4JGwwJGgw",
+        "muestra": "materiales/malmoRoble.jpg",
+        "material": "materiales/malmoRobleMaterial.jpg",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre" : "Casablanca Laila Blanco",
+        "serie" : "CASABLANCA",
+        "enlace" : "https://www.grespania.com/es/productos/grespania-laila-blanco-natural-30x90-8-mm?_gl=1*1wscg9c*_up*MQ..*_ga*Njg5MTc2NDU2LjE3NzU4MTYwMjM.*_ga_Z7D0L5F1YW*czE3NzU4MTYwMjMkbzEkZzEkdDE3NzU4MTYyMjEkajYwJGwwJGgw",
+        "muestra" : "materiales/CasablancaLailaBlanco.webp",
+        "material" : "materiales/CasablancaLailaBlancoMaterial.webp",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre" : "Casablanca Raina Blanco",
+        "serie" : "CASABLANCA",
+        "enlace" : "https://www.grespania.com/es/productos/grespania-rania-blanco-natural-30x90-8-mm?_gl=1*11chmzz*_up*MQ..*_ga*Njg5MTc2NDU2LjE3NzU4MTYwMjM.*_ga_Z7D0L5F1YW*czE3NzU4MTYwMjMkbzEkZzEkdDE3NzU4MTYzNTIkajYwJGwwJGgw",
+        "muestra" : "materiales/CasablancaRainaBlanco.webp",
+        "material" : "materiales/CasablancaRainaBlancoMaterial.webp",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre" : "Casablanca Sauco Cipres",
+        "serie" : "CASABLANCA",
+        "enlace" : "https://www.grespania.com/es/productos/grespania-sauco-cipres-natural-30x90-8-mm?_gl=1*1ijm6b*_up*MQ..*_ga*Njg5MTc2NDU2LjE3NzU4MTYwMjM.*_ga_Z7D0L5F1YW*czE3NzU4MTYwMjMkbzEkZzEkdDE3NzU4MTY0MTQkajU4JGwwJGgw",
+        "muestra" : "materiales/CasablancaSaucoCipres.webp",
+        "material" : "materiales/CasablancaSaucoCipresMaterial.webp",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre" : "Casablanca Sauco Fresno",
+        "serie" : "CASABLANCA",
+        "enlace" : "https://www.grespania.com/es/productos/grespania-sauco-fresno-natural-30x90-8-mm?_gl=1*1dny0a8*_up*MQ..*_ga*Njg5MTc2NDU2LjE3NzU4MTYwMjM.*_ga_Z7D0L5F1YW*czE3NzU4MTYwMjMkbzEkZzEkdDE3NzU4MTY2MzAkajU4JGwwJGgw",
+        "muestra" : "materiales/CasablancaSaucoFresno.webp",
+        "material" : "materiales/CasablancaSaucoFresnoMaterial.webp",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre" : "Casablanca Sauco Roble",
+        "serie" : "CASABLANCA",
+        "enlace" : "https://www.grespania.com/es/productos/grespania-sauco-roble-natural-30x90-8-mm?_gl=1*19w4oec*_up*MQ..*_ga*Njg5MTc2NDU2LjE3NzU4MTYwMjM.*_ga_Z7D0L5F1YW*czE3NzU4MTYwMjMkbzEkZzEkdDE3NzU4MTY2MzIkajU2JGwwJGgw",
+        "muestra" : "materiales/CasablancaSaucoRoble.webp",
+        "material" : "materiales/CasablancaSaucoRobleMaterial.webp",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre" : "Casablanca Tineo Fresno",
+        "serie" : "CASABLANCA",
+        "enlace" : "https://www.grespania.com/es/productos/grespania-tineo-fresno-natural-30x90-8-mm?_gl=1*1lqsxmq*_up*MQ..*_ga*Njg5MTc2NDU2LjE3NzU4MTYwMjM.*_ga_Z7D0L5F1YW*czE3NzU4MTYwMjMkbzEkZzEkdDE3NzU4MTY2NzQkajE0JGwwJGgw",
+        "muestra" : "materiales/CasablancaTineoFresno.webp",
+        "material" : "materiales/CasablancaTineoFresnoMaterial.webp",
+        "aplicacion": ["pared"]
+    },
+    {
+        "nombre" : "Casablanca Tineo Roble",
+        "serie" : "CASABLANCA",
+        "enlace" : "https://www.grespania.com/es/productos/grespania-tineo-roble-natural-30x90-8-mm?_gl=1*1kn0wx7*_up*MQ..*_ga*Njg5MTc2NDU2LjE3NzU4MTYwMjM.*_ga_Z7D0L5F1YW*czE3NzU4MTYwMjMkbzEkZzEkdDE3NzU4MTcwODMkajYwJGwwJGgw",
+        "muestra" : "materiales/CasablancaTineoRoble.webp",
+        "material" : "materiales/CasablancaTineoRobleMaterial.webp",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Casablanca Tineo Cipres",
+        "serie" : "CASABLANCA",
+        "enlace" : "https://www.grespania.com/es/productos/grespania-tineo-cipres-natural-30x90-8-mm?_gl=1*dk24i*_up*MQ..*_ga*Njg5MTc2NDU2LjE3NzU4MTYwMjM.*_ga_Z7D0L5F1YW*czE3NzU4MTYwMjMkbzEkZzEkdDE3NzU4MTY2NzYkajEyJGwwJGgw",
+        "muestra" : "materiales/CasablancaTineoCipres.webp",
+        "material" : "materiales/CasablancaTineoCipresMaterial.webp",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Buro Ebano",
+        "serie" : "BURO",
+        "enlace" : "https://www.grespania.com/es/pdf-collection/349?_gl=1*13cewe1*_up*MQ..*_ga*MTgxMjAxMjAyOS4xNzc1ODE4MDI1*_ga_Z7D0L5F1YW*czE3NzU4MTgwMjUkbzEkZzAkdDE3NzU4MTgwMjUkajYwJGwwJGgw",
+        "muestra" : "materiales/buroEbano.jpg",
+        "material" : "materiales/buroEbanoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Buro Iroko",
+        "serie" : "BURO",
+        "enlace" : "https://www.grespania.com/es/pdf-collection/349?_gl=1*13cewe1*_up*MQ..*_ga*MTgxMjAxMjAyOS4xNzc1ODE4MDI1*_ga_Z7D0L5F1YW*czE3NzU4MTgwMjUkbzEkZzAkdDE3NzU4MTgwMjUkajYwJGwwJGgw",
+        "muestra" : "materiales/buroIroko.jpg",
+        "material" : "materiales/buroIrokoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Buro Roble",
+        "serie" : "BURO",
+        "enlace" : "https://www.grespania.com/es/pdf-collection/349?_gl=1*13cewe1*_up*MQ..*_ga*MTgxMjAxMjAyOS4xNzc1ODE4MDI1*_ga_Z7D0L5F1YW*czE3NzU4MTgwMjUkbzEkZzAkdDE3NzU4MTgwMjUkajYwJGwwJGgw",
+        "muestra" : "materiales/buroRoble.jpg",
+        "material" : "materiales/buroRobleMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cementum Wall Sand",
+        "serie" : "CEMENTUM WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/cementum-wall-colecciones/",
+        "muestra" : "materiales/cementumWallSand.jpg",
+        "material" : "materiales/cementumWallSandMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cementum Wall Ash",
+        "serie" : "CEMENTUM WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/cementum-wall-colecciones/",
+        "muestra" : "materiales/cementumWallAsh.jpg",
+        "material" : "materiales/cementumWallAshMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cementum Wall Indigo",
+        "serie" : "CEMENTUM WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/cementum-wall-colecciones/",
+        "muestra" : "materiales/cementumWallIndigo.jpg",
+        "material" : "materiales/cementumWallIndigoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cementum Wall Nickel",
+        "serie" : "CEMENTUM WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/cementum-wall-colecciones/",
+        "muestra" : "materiales/cementumWallNickel.jpg",
+        "material" : "materiales/cementumWallNickelMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cementum Wall 3D Sand",
+        "serie" : "CEMENTUM WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/cementum-wall-colecciones/",
+        "muestra" : "materiales/cementumWall3DSand.jpg",
+        "material" : "materiales/cementumWall3DSandMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cementum Wall 3D Ash",
+        "serie" : "CEMENTUM WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/cementum-wall-colecciones/",
+        "muestra" : "materiales/cementumWall3DAsh.jpg",
+        "material" : "materiales/cementumWall3DAshMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cementum Wall 3D Indigo",
+        "serie" : "CEMENTUM WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/cementum-wall-colecciones/",
+        "muestra" : "materiales/cementumWall3DIndigo.jpg",
+        "material" : "materiales/cementumWall3DIndigoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cementum Wall 3D Nickel",
+        "serie" : "CEMENTUM WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/cementum-wall-colecciones/",
+        "muestra" : "materiales/cementumWall3DNickel.jpg",
+        "material" : "materiales/cementumWall3DNickelMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cementum Wall Flowery Touch Caldo",
+        "serie" : "CEMENTUM WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/cementum-wall-colecciones/",
+        "muestra" : "materiales/cementumWallfloweryTouchCaldo.jpg",
+        "material" : "materiales/cementumWallfloweryTouchCaldoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cementum Wall Urban Touch Caldo",
+        "serie" : "CEMENTUM WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/cementum-wall-colecciones/",
+        "muestra" : "materiales/cementumWallUrbanTouchCaldo.jpg",
+        "material" : "materiales/cementumWallUrbanTouchCaldoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cementum Wall Flowery Touch Freddo",
+        "serie" : "CEMENTUM WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/cementum-wall-colecciones/",
+        "muestra" : "materiales/cementumWallfloweryTouchFreddo.jpg",
+        "material" : "materiales/cementumWallfloweryTouchFreddoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cementum Wall Urban Touch Freddo",
+        "serie" : "CEMENTUM WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/cementum-wall-colecciones/",
+        "muestra" : "materiales/cementumWallUrbanTouchFreddo.jpg",
+        "material" : "materiales/cementumWallUrbanTouchFreddoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Allmarble Wall Pavé 3D Statuario",
+        "serie" : "ALLMARBLE WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/allmarble-wall-colecciones/",
+        "muestra" : "materiales/allmarbleWallPave3DStatuario.jpg",
+        "material" : "materiales/allmarbleWallPave3DStatuarioMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Allmarble Wall Pavé 3D Golden White",
+        "serie" : "ALLMARBLE WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/allmarble-wall-colecciones/",
+        "muestra" : "materiales/allmarbleWallPave3DGoldenWhite.jpg",
+        "material" : "materiales/allmarbleWallPave3DGoldenWhiteMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Allmarble Wall Statuario",
+        "serie" : "ALLMARBLE WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/allmarble-wall-colecciones/",
+        "muestra" : "materiales/allmarbleWallStatuario.jpg",
+        "material" : "materiales/allmarbleWallStatuarioMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Allmarble Wall Golden White",
+        "serie" : "ALLMARBLE WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/allmarble-wall-colecciones/",
+        "muestra" : "materiales/allmarbleWallGoldenWhite.jpg",
+        "material" : "materiales/allmarbleWallGoldenWhiteMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Allmarble Wall Rose Statuario",
+        "serie" : "ALLMARBLE WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/allmarble-wall-colecciones/",
+        "muestra" : "materiales/allmarbleWallRoseStatuario.jpg",
+        "material" : "materiales/allmarbleWallRoseStatuarioMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Allmarble Wall Rose Golden White",
+        "serie" : "ALLMARBLE WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/allmarble-wall-colecciones/",
+        "muestra" : "materiales/allmarbleWallRoseGoldenWhite.jpg",
+        "material" : "materiales/allmarbleWallRoseGoldenWhiteMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Allmarble Wall Retro Statuario",
+        "serie" : "ALLMARBLE WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/allmarble-wall-colecciones/",
+        "muestra" : "materiales/allmarbleWallRetroStatuario.jpg",
+        "material" : "materiales/allmarbleWallRetroStatuarioMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Allmarble Wall Retro Golden White",
+        "serie" : "ALLMARBLE WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/allmarble-wall-colecciones/",
+        "muestra" : "materiales/allmarbleWallRetroGoldenWhite.jpg",
+        "material" : "materiales/allmarbleWallRetroGoldenWhiteMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Allmarble Wall Regent Statuario",
+        "serie" : "ALLMARBLE WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/allmarble-wall-colecciones/",
+        "muestra" : "materiales/allmarbleWallRegentStatuario.jpg",
+        "material" : "materiales/allmarbleWallRegentStatuarioMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Allmarble Wall Regent Golden White",
+        "serie" : "ALLMARBLE WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/allmarble-wall-colecciones/",
+        "muestra" : "materiales/allmarbleWallRegentGoldenWhite.jpg",
+        "material" : "materiales/allmarbleWallRegentGoldenWhiteMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Allmarble Wall Club Statuario",
+        "serie" : "ALLMARBLE WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/allmarble-wall-colecciones/",
+        "muestra" : "materiales/allmarbleWallClubStatuario.jpg",
+        "material" : "materiales/allmarbleWallClubStatuarioMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Allmarble Wall Club Golden White",
+        "serie" : "ALLMARBLE WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/allmarble-wall-colecciones/",
+        "muestra" : "materiales/allmarbleWallClubGoldenWhite.jpg",
+        "material" : "materiales/allmarbleWallClubGoldenWhiteMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Lin Gris",
+        "serie" : "LIN",
+        "enlace" : "https://www.pamesa.com/seriep/891_0318690023638.html",
+        "muestra" : "materiales/linGris.jpg",
+        "material" : "materiales/linGrisMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Lin Beige",
+        "serie" : "LIN",
+        "enlace" : "https://www.pamesa.com/seriep/891_0318690023640.html",
+        "muestra" : "materiales/linBeige.jpg",
+        "material" : "materiales/linBeigeMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Lin Blanco",
+        "serie" : "LIN",
+        "enlace" : "https://www.pamesa.com/seriep/891_0318690024207.html",
+        "muestra" : "materiales/linBlanco.jpg",
+        "material" : "materiales/linBlancoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Lin Marfil",
+        "serie" : "LIN",
+        "enlace" : "https://www.pamesa.com/seriep/891_0318690023642.html",
+        "muestra" : "materiales/linMarfil.jpg",
+        "material" : "materiales/linMarfilMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Lin Relieve Gris",
+        "serie" : "LIN",
+        "enlace" : "https://www.pamesa.com/seriep/891_0318690023645.html",
+        "muestra" : "materiales/linRLVGris.jpg",
+        "material" : "materiales/linRLVGrisMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Lin Relieve Marfil",
+        "serie" : "LIN",
+        "enlace" : "https://www.pamesa.com/seriep/891_0318690023646.html",
+        "muestra" : "materiales/linRLVMarfil.jpg",
+        "material" : "materiales/linRLVMarfilMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Lin Relieve Beige",
+        "serie" : "LIN",
+        "enlace" : "https://www.pamesa.com/seriep/891_0318690023647.html",
+        "muestra" : "materiales/linRLVBeige.jpg",
+        "material" : "materiales/linRLVBeigeMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Lin Relieve Blanco",
+        "serie" : "LIN",
+        "enlace" : "https://www.pamesa.com/seriep/891_0318690024208.html",
+        "muestra" : "materiales/linRLVBlanco.jpg",
+        "material" : "materiales/linRLVBlancoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Sospiro Gris",
+        "serie" : "SOSPIRO",
+        "enlace" : "https://www.pamesa.com/seriep/SOSPIRO_0172500023590.html",
+        "muestra" : "materiales/sospiroGris.jpg",
+        "material" : "materiales/sospiroGrisMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Sospiro Beige",
+        "serie" : "SOSPIRO",
+        "enlace" : "https://www.pamesa.com/seriep/SOSPIRO_0172500023659.html",
+        "muestra" : "materiales/sospiroBeige.jpg",
+        "material" : "materiales/sospiroBeigeMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Sospiro Blanco",
+        "serie" : "SOSPIRO",
+        "enlace" : "https://www.pamesa.com/seriep/SOSPIRO_0172500023663.html",
+        "muestra" : "materiales/sospiroBlanco.jpg",
+        "material" : "materiales/sospiroBlancoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Sospiro Marfil",
+        "serie" : "SOSPIRO",
+        "enlace" : "https://www.pamesa.com/seriep/SOSPIRO_0172500023664.html",
+        "muestra" : "materiales/sospiroMarfil.jpg",
+        "material" : "materiales/sospiroMarfilMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Sospiro Taupe",
+        "serie" : "SOSPIRO",
+        "enlace" : "https://www.pamesa.com/seriep/SOSPIRO_0172500023677.html",
+        "muestra" : "materiales/sospiroTaupe.jpg",
+        "material" : "materiales/sospiroTaupeMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Sospiro Relieve Blanco",
+        "serie" : "SOSPIRO",
+        "enlace" : "https://www.pamesa.com/seriep/SOSPIRO_0172500038074.html",
+        "muestra" : "materiales/sospiroRLVBlanco.jpg",
+        "material" : "materiales/sospiroRLVBlancoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Sospiro Relieve Taupe",
+        "serie" : "SOSPIRO",
+        "enlace" : "https://www.pamesa.com/seriep/SOSPIRO_0172500038076.html",
+        "muestra" : "materiales/sospiroRLVTaupe.jpg",
+        "material" : "materiales/sospiroRLVTaupeMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Sospiro Relieve Gris",
+        "serie" : "SOSPIRO",
+        "enlace" : "https://www.pamesa.com/seriep/SOSPIRO_0172500049456.html",
+        "muestra" : "materiales/sospiroRLVGris.jpg",
+        "material" : "materiales/sospiroRLVGrisMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Sospiro Relieve Beige",
+        "serie" : "SOSPIRO",
+        "enlace" : "https://www.pamesa.com/seriep/SOSPIRO_0172500049457.html",
+        "muestra" : "materiales/sospiroRLVBeige.jpg",
+        "material" : "materiales/sospiroRLVBeigeMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Sospiro Relieve Marfil",
+        "serie" : "SOSPIRO",
+        "enlace" : "https://www.pamesa.com/seriep/SOSPIRO_0172500049458.html",
+        "muestra" : "materiales/sospiroRLVMarfil.jpg",
+        "material" : "materiales/sospiroRLVMarfilMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Mystone Silver Root White",
+        "serie" : "MYSTONE SILVER ROOT",
+        "enlace" : "https://www.marazzi.es/colecciones/mystone-silver-root-colecciones/",
+        "muestra" : "materiales/mystoneSRWhite.jpg",
+        "material" : "materiales/mystoneSRWhiteMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Mystone Silver Root Beige",
+        "serie" : "MYSTONE SILVER ROOT",
+        "enlace" : "https://www.marazzi.es/colecciones/mystone-silver-root-colecciones/",
+        "muestra" : "materiales/mystoneSRBeige.jpg",
+        "material" : "materiales/mystoneSRBeigeMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Mystone Silver Root Grey",
+        "serie" : "MYSTONE SILVER ROOT",
+        "enlace" : "https://www.marazzi.es/colecciones/mystone-silver-root-colecciones/",
+        "muestra" : "materiales/mystoneSRGrey.jpg",
+        "material" : "materiales/mystoneSRGreyMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Allmarble Onice Giada",
+        "serie" : "ALLMARBLE ONICE",
+        "enlace" : "https://www.marazzi.es/colecciones/allmarble-colecciones/",
+        "muestra" : "materiales/OniceGiada.jpg",
+        "material" : "materiales/OniceGiadaMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Allmarble Onice Nero",
+        "serie" : "ALLMARBLE ONICE",
+        "enlace" : "https://www.marazzi.es/colecciones/allmarble-colecciones/",
+        "muestra" : "materiales/OniceNero.jpg",
+        "material" : "materiales/OniceNeroMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Allmarble Onice Beige",
+        "serie" : "ALLMARBLE ONICE",
+        "enlace" : "https://www.marazzi.es/colecciones/allmarble-colecciones/",
+        "muestra" : "materiales/OniceBeige.jpg",
+        "material" : "materiales/OniceBeigeMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Allmarble Onice Avorio",
+        "serie" : "ALLMARBLE ONICE",
+        "enlace" : "https://www.marazzi.es/colecciones/allmarble-colecciones/",
+        "muestra" : "materiales/OniceAvorio.jpg",
+        "material" : "materiales/OniceAvorioMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Room Wall Bianco",
+        "serie" : "ROOM WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/room-wall-colecciones/",
+        "muestra" : "materiales/roomWallBianco.jpg",
+        "material" : "materiales/roomWallBiancoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Room Wall Grigio",
+        "serie" : "ROOM WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/room-wall-colecciones/",
+        "muestra" : "materiales/roomWallGrigio.jpg",
+        "material" : "materiales/roomWallGrigioMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Room Wall Beige",
+        "serie" : "ROOM WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/room-wall-colecciones/",
+        "muestra" : "materiales/roomWallBeige.jpg",
+        "material" : "materiales/roomWallBeigeMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Room Wall Taupe",
+        "serie" : "ROOM WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/room-wall-colecciones/",
+        "muestra" : "materiales/roomWallTaupe.jpg",
+        "material" : "materiales/roomWallTaupeMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Room Wall Blaze 3D Beige",
+        "serie" : "ROOM WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/room-wall-colecciones/",
+        "muestra" : "materiales/roomWallBl3DBeige.jpg",
+        "material" : "materiales/roomWallBl3DBeigeMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Room Wall Match 3D Beige",
+        "serie" : "ROOM WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/room-wall-colecciones/",
+        "muestra" : "materiales/roomWallMt3DBeige.jpg",
+        "material" : "materiales/roomWallMt3DBeigeMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Room Wall Blaze 3D Bianco",
+        "serie" : "ROOM WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/room-wall-colecciones/",
+        "muestra" : "materiales/roomWallBl3DBianco.jpg",
+        "material" : "materiales/roomWallBl3DBiancoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Room Wall Match 3D Bianco",
+        "serie" : "ROOM WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/room-wall-colecciones/",
+        "muestra" : "materiales/roomWallMt3DBianco.jpg",
+        "material" : "materiales/roomWallMt3DBiancoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Room Wall Match 3D Grigio",
+        "serie" : "ROOM WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/room-wall-colecciones/",
+        "muestra" : "materiales/roomWallMt3DGrigio.jpg",
+        "material" : "materiales/roomWallMt3DGrigioMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Room Wall Blaze 3D Grigio",
+        "serie" : "ROOM WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/room-wall-colecciones/",
+        "muestra" : "materiales/roomWallBl3DGrigio.jpg",
+        "material" : "materiales/roomWallBl3DGrigioMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Room Wall Blaze 3D Taupe",
+        "serie" : "ROOM WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/room-wall-colecciones/",
+        "muestra" : "materiales/roomWallBl3DTaupe.jpg",
+        "material" : "materiales/roomWallBl3DTaupeMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Room Wall Match 3D Taupe",
+        "serie" : "ROOM WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/room-wall-colecciones/",
+        "muestra" : "materiales/roomWallMt3DTaupe.jpg",
+        "material" : "materiales/roomWallMt3DTaupeMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Room Wall Oleander Bianco",
+        "serie" : "ROOM WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/room-wall-colecciones/",
+        "muestra" : "materiales/roomWallOleanderBianco.jpg",
+        "material" : "materiales/roomWallOleanderBiancoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Room Wall Romantic Bianco",
+        "serie" : "ROOM WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/room-wall-colecciones/",
+        "muestra" : "materiales/roomWallRomanticBianco.jpg",
+        "material" : "materiales/roomWallRomanticBiancoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Room Wall Seventies Beige",
+        "serie" : "ROOM WALL",
+        "enlace" : "https://www.marazzi.es/colecciones/room-wall-colecciones/",
+        "muestra" : "materiales/roomWallSeventiesBeige.jpg",
+        "material" : "materiales/roomWallSeventiesBeigeMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Naturalia Bianco",
+        "serie" : "NATURALIA",
+        "enlace" : "https://www.marazzi.es/colecciones/naturalia-colecciones/",
+        "muestra" : "materiales/natMBianco.jpg",
+        "material" : "materiales/natMBiancoMaterial.jpg",
+        "aplicacion" : ["pared", "suelo"]
+    },
+    {
+        "nombre" : "Naturalia Grigio",
+        "serie" : "NATURALIA",
+        "enlace" : "https://www.marazzi.es/colecciones/naturalia-colecciones/",
+        "muestra" : "materiales/natMGrigio.jpg",
+        "material" : "materiales/natMGrigioMaterial.jpg",
+        "aplicacion" : ["pared", "suelo"]
+    },
+    {
+        "nombre" : "Naturalia Beige",
+        "serie" : "NATURALIA",
+        "enlace" : "https://www.marazzi.es/colecciones/naturalia-colecciones/",
+        "muestra" : "materiales/natMBeige.jpg",
+        "material" : "materiales/natMBeigeMaterial.jpg",
+        "aplicacion" : ["pared", "suelo"]
+    },
+    {
+        "nombre" : "Naturalia Cenere",
+        "serie" : "NATURALIA",
+        "enlace" : "https://www.marazzi.es/colecciones/naturalia-colecciones/",
+        "muestra" : "materiales/natMCenere.jpg",
+        "material" : "materiales/natMCenereMaterial.jpg",
+        "aplicacion" : ["pared", "suelo"]
+    },
+    {
+        "nombre" : "Naturalia Taupe",
+        "serie" : "NATURALIA",
+        "enlace" : "https://www.marazzi.es/colecciones/naturalia-colecciones/",
+        "muestra" : "materiales/natMTaupe.jpg",
+        "material" : "materiales/natMTaupeMaterial.jpg",
+        "aplicacion" : ["pared", "suelo"]
+    },
+    {
+        "nombre" : "Naturalia Codex 3D Beige",
+        "serie" : "NATURALIA",
+        "enlace" : "https://www.marazzi.es/colecciones/naturalia-colecciones/",
+        "muestra" : "materiales/natMCx3DBeige.jpg",
+        "material" : "materiales/natMCx3DBeigeMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Naturalia Codex 3D Bianco",
+        "serie" : "NATURALIA",
+        "enlace" : "https://www.marazzi.es/colecciones/naturalia-colecciones/",
+        "muestra" : "materiales/natMCx3DBianco.jpg",
+        "material" : "materiales/natMCx3DBiancoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Naturalia Codex 3D Grigio",
+        "serie" : "NATURALIA",
+        "enlace" : "https://www.marazzi.es/colecciones/naturalia-colecciones/",
+        "muestra" : "materiales/natMCx3DGrigio.jpg",
+        "material" : "materiales/natMCx3DGrigioMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Naturalia Canneto 3D Natural",
+        "serie" : "NATURALIA",
+        "enlace" : "https://www.marazzi.es/colecciones/naturalia-colecciones/",
+        "muestra" : "materiales/natMCn3DNatural.jpg",
+        "material" : "materiales/natMCn3DNaturalMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Naturalia Canneto 3D Rovere",
+        "serie" : "NATURALIA",
+        "enlace" : "https://www.marazzi.es/colecciones/naturalia-colecciones/",
+        "muestra" : "materiales/natMCn3DRovere.jpg",
+        "material" : "materiales/natMCn3DRovereMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Naturalia Micro Grigio",
+        "serie" : "NATURALIA",
+        "enlace" : "https://www.marazzi.es/colecciones/naturalia-colecciones/",
+        "muestra" : "materiales/natMMcGrigio.jpg",
+        "material" : "materiales/natMMcGrigioMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Naturalia Micro Beige",
+        "serie" : "NATURALIA",
+        "enlace" : "https://www.marazzi.es/colecciones/naturalia-colecciones/",
+        "muestra" : "materiales/natMMcBeige.jpg",
+        "material" : "materiales/natMMcBeigeMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Naturalia Incisione Grigio",
+        "serie" : "NATURALIA",
+        "enlace" : "https://www.marazzi.es/colecciones/naturalia-colecciones/",
+        "muestra" : "materiales/natMInGrigio.jpg",
+        "material" : "materiales/natMInGrigioMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Naturalia Incisione Beige",
+        "serie" : "NATURALIA",
+        "enlace" : "https://www.marazzi.es/colecciones/naturalia-colecciones/",
+        "muestra" : "materiales/natMInBeige.jpg",
+        "material" : "materiales/natMInBeigeMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Naturalia Classy Grigio",
+        "serie" : "NATURALIA",
+        "enlace" : "https://www.marazzi.es/colecciones/naturalia-colecciones/",
+        "muestra" : "materiales/natMClGrigio.jpg",
+        "material" : "materiales/natMClGrigioMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Naturalia Classy Beige",
+        "serie" : "NATURALIA",
+        "enlace" : "https://www.marazzi.es/colecciones/naturalia-colecciones/",
+        "muestra" : "materiales/natMClBeige.jpg",
+        "material" : "materiales/natMClBeigeMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Alba Greige",
+        "serie" : "ALBA",
+        "enlace" : "https://www.marazzi.es/colecciones/alba-colecciones/",
+        "muestra" : "materiales/albaGreige.jpg",
+        "material" : "materiales/albaGreigeMaterial.jpg",
+        "aplicacion" : ["pared", "suelo"]
+    },
+    {
+        "nombre" : "Alba Blanco",
+        "serie" : "ALBA",
+        "enlace" : "https://www.marazzi.es/colecciones/alba-colecciones/",
+        "muestra" : "materiales/albaBlanco.jpg",
+        "material" : "materiales/albaBlancoMaterial.jpg",
+        "aplicacion" : ["pared", "suelo"]
+    },
+    {
+        "nombre" : "Alba Roble",
+        "serie" : "ALBA",
+        "enlace" : "https://www.marazzi.es/colecciones/alba-colecciones/",
+        "muestra" : "materiales/albaRoble.jpg",
+        "material" : "materiales/albaRobleMaterial.jpg",
+        "aplicacion" : ["pared", "suelo"]
+    },
+    {
+        "nombre" : "Alba Arena",
+        "serie" : "ALBA",
+        "enlace" : "https://www.marazzi.es/colecciones/alba-colecciones/",
+        "muestra" : "materiales/albaArena.jpg",
+        "material" : "materiales/albaArenaMaterial.jpg",
+        "aplicacion" : ["pared", "suelo"]
+    },
+    {
+        "nombre" : "Alba Walltone 3D Arena",
+        "serie" : "ALBA",
+        "enlace" : "https://www.marazzi.es/colecciones/alba-colecciones/",
+        "muestra" : "materiales/albaWll3DArena.jpg",
+        "material" : "materiales/albaWll3DArenaMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Alba Walltone 3D Blanco",
+        "serie" : "ALBA",
+        "enlace" : "https://www.marazzi.es/colecciones/alba-colecciones/",
+        "muestra" : "materiales/albaWll3DBlanco.jpg",
+        "material" : "materiales/albaWll3DBlancoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Alba Walltone 3D Greige",
+        "serie" : "ALBA",
+        "enlace" : "https://www.marazzi.es/colecciones/alba-colecciones/",
+        "muestra" : "materiales/albaWll3DGreige.jpg",
+        "material" : "materiales/albaWll3DGreigeMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Alba Talbot Blanco",
+        "serie" : "ALBA",
+        "enlace" : "https://www.marazzi.es/colecciones/alba-colecciones/",
+        "muestra" : "materiales/albaTlBlanco.jpg",
+        "material" : "materiales/albaTlBlancoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Alba Mosaico Arena",
+        "serie" : "ALBA",
+        "enlace" : "https://www.marazzi.es/colecciones/alba-colecciones/",
+        "muestra" : "materiales/albaMsArena.jpg",
+        "material" : "materiales/albaMsArena.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Alba Mosaico Blanco",
+        "serie" : "ALBA",
+        "enlace" : "https://www.marazzi.es/colecciones/alba-colecciones/",
+        "muestra" : "materiales/albaMsBlanco.jpg",
+        "material" : "materiales/albaMsBlanco.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Alba Mosaico Greige",
+        "serie" : "ALBA",
+        "enlace" : "https://www.marazzi.es/colecciones/alba-colecciones/",
+        "muestra" : "materiales/albaMsGreige.jpg",
+        "material" : "materiales/albaMsGreige.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Plaza White",
+        "serie" : "PLAZA",
+        "enlace" : "https://www.marazzi.es/colecciones/plaza-colecciones/",
+        "muestra" : "materiales/plWhite.jpg",
+        "material" : "materiales/plWhiteMaterial.jpg",
+        "aplicacion" : ["pared", "suelo"]
+    },
+    {
+        "nombre" : "Plaza Beige",
+        "serie" : "PLAZA",
+        "enlace" : "https://www.marazzi.es/colecciones/plaza-colecciones/",
+        "muestra" : "materiales/plBeige.jpg",
+        "material" : "materiales/plBeigeMaterial.jpg",
+        "aplicacion" : ["pared", "suelo"]
+    },
+    {
+        "nombre" : "Plaza Grey",
+        "serie" : "PLAZA",
+        "enlace" : "https://www.marazzi.es/colecciones/plaza-colecciones/",
+        "muestra" : "materiales/plGrey.jpg",
+        "material" : "materiales/plGreyMaterial.jpg",
+        "aplicacion" : ["pared", "suelo"]
+    },
+    {
+        "nombre" : "Plaza Multicolor",
+        "serie" : "PLAZA",
+        "enlace" : "https://www.marazzi.es/colecciones/plaza-colecciones/",
+        "muestra" : "materiales/plMulti.jpg",
+        "material" : "materiales/plMultiMaterial.jpg",
+        "aplicacion" : ["pared", "suelo"]
+    },
+    {
+        "nombre" : "Plaza Range 3D Beige",
+        "serie" : "PLAZA",
+        "enlace" : "https://www.marazzi.es/colecciones/plaza-colecciones/",
+        "muestra" : "materiales/plRg3DBeige.jpg",
+        "material" : "materiales/plRg3DBeigeMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Plaza Range 3D Grey",
+        "serie" : "PLAZA",
+        "enlace" : "https://www.marazzi.es/colecciones/plaza-colecciones/",
+        "muestra" : "materiales/plRg3DGrey.jpg",
+        "material" : "materiales/plRg3DGreyMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Plaza Range 3D White",
+        "serie" : "PLAZA",
+        "enlace" : "https://www.marazzi.es/colecciones/plaza-colecciones/",
+        "muestra" : "materiales/plRg3DWhite.jpg",
+        "material" : "materiales/plRg3DWhiteMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Plaza Wallace White/Beige",
+        "serie" : "PLAZA",
+        "enlace" : "https://www.marazzi.es/colecciones/plaza-colecciones/",
+        "muestra" : "materiales/plWllWhBe.jpg",
+        "material" : "materiales/plWllWhBeMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Plaza Wallace White/Grey",
+        "serie" : "PLAZA",
+        "enlace" : "https://www.marazzi.es/colecciones/plaza-colecciones/",
+        "muestra" : "materiales/plWllWhGr.jpg",
+        "material" : "materiales/plWllWhGrMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Plaza Mosaico Beige",
+        "serie" : "PLAZA",
+        "enlace" : "https://www.marazzi.es/colecciones/plaza-colecciones/",
+        "muestra" : "materiales/plMsBeige.jpg",
+        "material" : "materiales/plMsBeige.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Plaza Mosaico Grey",
+        "serie" : "PLAZA",
+        "enlace" : "https://www.marazzi.es/colecciones/plaza-colecciones/",
+        "muestra" : "materiales/plMsGrey.jpg",
+        "material" : "materiales/plMsGrey.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Plaza Mosaico White",
+        "serie" : "PLAZA",
+        "enlace" : "https://www.marazzi.es/colecciones/plaza-colecciones/",
+        "muestra" : "materiales/plMsWhite.jpg",
+        "material" : "materiales/plMsWhite.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Mystone Berici Bianco",
+        "serie" : "MYSTONE BERICI",
+        "enlace" : "https://www.marazzi.es/colecciones/mystone-berici-colecciones/",
+        "muestra" : "materiales/msBBianco.jpg",
+        "material" : "materiales/msBBiancoMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Mystone Berici Grigio",
+        "serie" : "MYSTONE BERICI",
+        "enlace" : "https://www.marazzi.es/colecciones/mystone-berici-colecciones/",
+        "muestra" : "materiales/msBGrigio.jpg",
+        "material" : "materiales/msBGrigioMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Mystone Berici Beige",
+        "serie" : "MYSTONE BERICI",
+        "enlace" : "https://www.marazzi.es/colecciones/mystone-berici-colecciones/",
+        "muestra" : "materiales/msBBeige.jpg",
+        "material" : "materiales/msBBeigeMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Mystone Berici Cenere",
+        "serie" : "MYSTONE BERICI",
+        "enlace" : "https://www.marazzi.es/colecciones/mystone-berici-colecciones/",
+        "muestra" : "materiales/msBCenere.jpg",
+        "material" : "materiales/msBCenereMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Mystone Berici Righe 3D Beige",
+        "serie" : "MYSTONE BERICI",
+        "enlace" : "https://www.marazzi.es/colecciones/mystone-berici-colecciones/",
+        "muestra" : "materiales/msBRg3DBeige.jpg",
+        "material" : "materiales/msBRg3DBeigeMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Mystone Berici Righe 3D Bianco",
+        "serie" : "MYSTONE BERICI",
+        "enlace" : "https://www.marazzi.es/colecciones/mystone-berici-colecciones/",
+        "muestra" : "materiales/msBRg3DBianco.jpg",
+        "material" : "materiales/msBRg3DBiancoMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Mystone Berici Righe 3D Cenere",
+        "serie" : "MYSTONE BERICI",
+        "enlace" : "https://www.marazzi.es/colecciones/mystone-berici-colecciones/",
+        "muestra" : "materiales/msBRg3DCenere.jpg",
+        "material" : "materiales/msBRg3DCenereMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Mystone Berici Righe 3D Grigio",
+        "serie" : "MYSTONE BERICI",
+        "enlace" : "https://www.marazzi.es/colecciones/mystone-berici-colecciones/",
+        "muestra" : "materiales/msBRg3DGrigio.jpg",
+        "material" : "materiales/msBRg3DGrigioMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Mystone Berici Flora Bianco",
+        "serie" : "MYSTONE BERICI",
+        "enlace" : "https://www.marazzi.es/colecciones/mystone-berici-colecciones/",
+        "muestra" : "materiales/msBFlBianco.jpg",
+        "material" : "materiales/msBFlBiancoMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Mystone Berici Flora Grigio",
+        "serie" : "MYSTONE BERICI",
+        "enlace" : "https://www.marazzi.es/colecciones/mystone-berici-colecciones/",
+        "muestra" : "materiales/msBFlGrigio.jpg",
+        "material" : "materiales/msBFlGrigioMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Mystone Berici Flora Beige",
+        "serie" : "MYSTONE BERICI",
+        "enlace" : "https://www.marazzi.es/colecciones/mystone-berici-colecciones/",
+        "muestra" : "materiales/msBFlBeige.jpg",
+        "material" : "materiales/msBFlBeigeMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Mystone Berici Flora Cenere",
+        "serie" : "MYSTONE BERICI",
+        "enlace" : "https://www.marazzi.es/colecciones/mystone-berici-colecciones/",
+        "muestra" : "materiales/msBFlCenere.jpg",
+        "material" : "materiales/msBFlCenereMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Mystone Berici Mosaico Strip Beige",
+        "serie" : "MYSTONE BERICI",
+        "enlace" : "https://www.marazzi.es/colecciones/mystone-berici-colecciones/",
+        "muestra" : "materiales/msBMsBeige.jpg",
+        "material" : "materiales/msBMsBeige.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Mystone Berici Mosaico Strip Bianco",
+        "serie" : "MYSTONE BERICI",
+        "enlace" : "https://www.marazzi.es/colecciones/mystone-berici-colecciones/",
+        "muestra" : "materiales/msBMsBianco.jpg",
+        "material" : "materiales/msBMsBianco.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Mystone Berici Mosaico Strip Cenere",
+        "serie" : "MYSTONE BERICI",
+        "enlace" : "https://www.marazzi.es/colecciones/mystone-berici-colecciones/",
+        "muestra" : "materiales/msBMsCenere.jpg",
+        "material" : "materiales/msBMsCenere.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Mystone Berici Mosaico Strip Grigio",
+        "serie" : "MYSTONE BERICI",
+        "enlace" : "https://www.marazzi.es/colecciones/mystone-berici-colecciones/",
+        "muestra" : "materiales/msBMsGrigio.jpg",
+        "material" : "materiales/msBMsGrigio.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Alma Beige",
+        "serie" : "ALMA",
+        "enlace" : "https://www.marazzi.es/colecciones/alma-colecciones/",
+        "muestra" : "materiales/almaBeige.jpg",
+        "material" : "materiales/almaBeigeMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Alma Marrone",
+        "serie" : "ALMA",
+        "enlace" : "https://www.marazzi.es/colecciones/alma-colecciones/",
+        "muestra" : "materiales/almaMarrone.jpg",
+        "material" : "materiales/almaMarroneMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Alma Rovere",
+        "serie" : "ALMA",
+        "enlace" : "https://www.marazzi.es/colecciones/alma-colecciones/",
+        "muestra" : "materiales/almaRovere.jpg",
+        "material" : "materiales/almaRovereMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Alma Miele",
+        "serie" : "ALMA",
+        "enlace" : "https://www.marazzi.es/colecciones/alma-colecciones/",
+        "muestra" : "materiales/almaMiele.jpg",
+        "material" : "materiales/almaMieleMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Alma Naturale",
+        "serie" : "ALMA",
+        "enlace" : "https://www.marazzi.es/colecciones/alma-colecciones/",
+        "muestra" : "materiales/almaNaturale.jpg",
+        "material" : "materiales/almaNaturaleMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Vero Sabbia",
+        "serie" : "VERO",
+        "enlace" : "https://www.marazzi.es/colecciones/vero-colecciones/",
+        "muestra" : "materiales/veroSabbia.jpg",
+        "material" : "materiales/veroSabbiaMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Vero Larice",
+        "serie" : "VERO",
+        "enlace" : "https://www.marazzi.es/colecciones/vero-colecciones/",
+        "muestra" : "materiales/veroLarice.jpg",
+        "material" : "materiales/veroLariceMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Vero Betulla",
+        "serie" : "VERO",
+        "enlace" : "https://www.marazzi.es/colecciones/vero-colecciones/",
+        "muestra" : "materiales/veroBetulla.jpg",
+        "material" : "materiales/veroBetullaMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Vero Rovere",
+        "serie" : "VERO",
+        "enlace" : "https://www.marazzi.es/colecciones/vero-colecciones/",
+        "muestra" : "materiales/veroRovere.jpg",
+        "material" : "materiales/veroRovereMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Vero Castagno",
+        "serie" : "VERO",
+        "enlace" : "https://www.marazzi.es/colecciones/vero-colecciones/",
+        "muestra" : "materiales/veroCastagno.jpg",
+        "material" : "materiales/veroCastagnoMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Vero Quercia",
+        "serie" : "VERO",
+        "enlace" : "https://www.marazzi.es/colecciones/vero-colecciones/",
+        "muestra" : "materiales/veroQuercia.jpg",
+        "material" : "materiales/veroQuerciaMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Vero Natural",
+        "serie" : "VERO",
+        "enlace" : "https://www.marazzi.es/colecciones/vero-colecciones/",
+        "muestra" : "materiales/veroNatural.jpg",
+        "material" : "materiales/veroNaturalMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Treverkchic Noce Francese",
+        "serie" : "TREVERKCHIC",
+        "enlace" : "https://www.marazzi.es/colecciones/treverkchic-colecciones/",
+        "muestra" : "materiales/trvchNcFran.jpg",
+        "material" : "materiales/trvchNcFranMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Treverkchic Noce Tinto",
+        "serie" : "TREVERKCHIC",
+        "enlace" : "https://www.marazzi.es/colecciones/treverkchic-colecciones/",
+        "muestra" : "materiales/trvchNcTt.jpg",
+        "material" : "materiales/trvchNcTtMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Treverkchic Teak Africa",
+        "serie" : "TREVERKCHIC",
+        "enlace" : "https://www.marazzi.es/colecciones/treverkchic-colecciones/",
+        "muestra" : "materiales/trvchTkAf.jpg",
+        "material" : "materiales/trvchTkAfMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Treverkchic Teak Asia",
+        "serie" : "TREVERKCHIC",
+        "enlace" : "https://www.marazzi.es/colecciones/treverkchic-colecciones/",
+        "muestra" : "materiales/trvchTkAs.jpg",
+        "material" : "materiales/trvchTkAsMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Treverkchic Noce Americano",
+        "serie" : "TREVERKCHIC",
+        "enlace" : "https://www.marazzi.es/colecciones/treverkchic-colecciones/",
+        "muestra" : "materiales/trvchNcAmr.jpg",
+        "material" : "materiales/trvchNcAmrMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Treverkchic Noce Italiano",
+        "serie" : "TREVERKCHIC",
+        "enlace" : "https://www.marazzi.es/colecciones/treverkchic-colecciones/",
+        "muestra" : "materiales/trvchNcItl.jpg",
+        "material" : "materiales/trvchNcItlMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Treverkhome Larice",
+        "serie" : "TREVERKHOME",
+        "enlace" : "https://www.marazzi.es/colecciones/treverkhome-colecciones/",
+        "muestra" : "materiales/trvhmLarice.jpg",
+        "material" : "materiales/trvhmLariceMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Treverkhome Olmo",
+        "serie" : "TREVERKHOME",
+        "enlace" : "https://www.marazzi.es/colecciones/treverkhome-colecciones/",
+        "muestra" : "materiales/trvhmOlmo.jpg",
+        "material" : "materiales/trvhmOlmoMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Treverkhome Betulla",
+        "serie" : "TREVERKHOME",
+        "enlace" : "https://www.marazzi.es/colecciones/treverkhome-colecciones/",
+        "muestra" : "materiales/trvhmBetulla.jpg",
+        "material" : "materiales/trvhmBetullaMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Treverkhome Rovere",
+        "serie" : "TREVERKHOME",
+        "enlace" : "https://www.marazzi.es/colecciones/treverkhome-colecciones/",
+        "muestra" : "materiales/trvhmRovere.jpg",
+        "material" : "materiales/trvhmRovereMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Treverkhome Castagno",
+        "serie" : "TREVERKHOME",
+        "enlace" : "https://www.marazzi.es/colecciones/treverkhome-colecciones/",
+        "muestra" : "materiales/trvhmCastagno.jpg",
+        "material" : "materiales/trvhmCastagnoMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Treverkhome Quercia",
+        "serie" : "TREVERKHOME",
+        "enlace" : "https://www.marazzi.es/colecciones/treverkhome-colecciones/",
+        "muestra" : "materiales/trvhmQuercia.jpg",
+        "material" : "materiales/trvhmQuerciaMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Treverkhome Acero",
+        "serie" : "TREVERKHOME",
+        "enlace" : "https://www.marazzi.es/colecciones/treverkhome-colecciones/",
+        "muestra" : "materiales/trvhmAcero.jpg",
+        "material" : "materiales/trvhmAceroMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Treverkhome Frassino",
+        "serie" : "TREVERKHOME",
+        "enlace" : "https://www.marazzi.es/colecciones/treverkhome-colecciones/",
+        "muestra" : "materiales/trvhmFrassino.jpg",
+        "material" : "materiales/trvhmFrassinoMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Treverkhome 5x5 Acero",
+        "serie" : "TREVERKHOME",
+        "enlace" : "https://www.marazzi.es/colecciones/treverkhome-colecciones/",
+        "muestra" : "materiales/trvhmMsAcero.jpg",
+        "material" : "materiales/trvhmMsAcero.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Treverkhome 5x5 Betulla",
+        "serie" : "TREVERKHOME",
+        "enlace" : "https://www.marazzi.es/colecciones/treverkhome-colecciones/",
+        "muestra" : "materiales/trvhmMsBetulla.jpg",
+        "material" : "materiales/trvhmMsBetulla.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Treverkhome 5x5 Castagno",
+        "serie" : "TREVERKHOME",
+        "enlace" : "https://www.marazzi.es/colecciones/treverkhome-colecciones/",
+        "muestra" : "materiales/trvhmMsCastagno.jpg",
+        "material" : "materiales/trvhmMsCastagno.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Treverkhome 5x5 Frassino",
+        "serie" : "TREVERKHOME",
+        "enlace" : "https://www.marazzi.es/colecciones/treverkhome-colecciones/",
+        "muestra" : "materiales/trvhmMsFrassino.jpg",
+        "material" : "materiales/trvhmMsFrassino.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Treverkhome 5x5 Larice",
+        "serie" : "TREVERKHOME",
+        "enlace" : "https://www.marazzi.es/colecciones/treverkhome-colecciones/",
+        "muestra" : "materiales/trvhmMsLarice.jpg",
+        "material" : "materiales/trvhmMsLarice.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Treverkhome 5x5 Olmo",
+        "serie" : "TREVERKHOME",
+        "enlace" : "https://www.marazzi.es/colecciones/treverkhome-colecciones/",
+        "muestra" : "materiales/trvhmMsOlmo.jpg",
+        "material" : "materiales/trvhmMsOlmo.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Treverkhome 5x5 Quercia",
+        "serie" : "TREVERKHOME",
+        "enlace" : "https://www.marazzi.es/colecciones/treverkhome-colecciones/",
+        "muestra" : "materiales/trvhmMsQuercia.jpg",
+        "material" : "materiales/trvhmMsQuercia.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Treverkhome 5x5 Rovere",
+        "serie" : "TREVERKHOME",
+        "enlace" : "https://www.marazzi.es/colecciones/treverkhome-colecciones/",
+        "muestra" : "materiales/trvhmMsRovere.jpg",
+        "material" : "materiales/trvhmMsRovere.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Teguise Ocre 15x15",
+        "serie" : "TEGUISE",
+        "enlace" : "https://www.mainzu.com/es/producto/serie/teguise/teguise-ocre",
+        "muestra" : "materiales/tgsOcre15x15.jpg",
+        "material" : "materiales/tgsOcre15x15Material.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Teguise Ocre 7,5x30",
+        "serie" : "TEGUISE",
+        "enlace" : "https://www.mainzu.com/es/producto/serie/teguise/teguise-ocre-7_5x30",
+        "muestra" : "materiales/tgsOcre7,5x15.jpg",
+        "material" : "materiales/tgsOcre7,5x15Material.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Teguise Ocre 15x30",
+        "serie" : "TEGUISE",
+        "enlace" : "https://www.mainzu.com/es/producto/serie/teguise/teguise-ocre-15x30",
+        "muestra" : "materiales/tgsOcre15x30.jpg",
+        "material" : "materiales/tgsOcre15x30Material.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Teguise Cotto 15x15",
+        "serie" : "TEGUISE",
+        "enlace" : "https://www.mainzu.com/es/producto/serie/teguise/teguise-cotto",
+        "muestra" : "materiales/tgsCotto15x15.jpg",
+        "material" : "materiales/tgsCotto15x15Material.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Teguise Cotto 7,5x15",
+        "serie" : "TEGUISE",
+        "enlace" : "https://www.mainzu.com/es/producto/serie/teguise/teguise-cotto-7_5x30",
+        "muestra" : "materiales/tgsCotto7,5x15.jpg",
+        "material" : "materiales/tgsCotto7,5x15Material.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Teguise Cotto 15x30",
+        "serie" : "TEGUISE",
+        "enlace" : "https://www.mainzu.com/es/producto/serie/teguise/teguise-cotto-15x30",
+        "muestra" : "materiales/tgsCotto15x30.jpg",
+        "material" : "materiales/tgsCotto15x30Material.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Teguise Ocre Decor 15x30",
+        "serie" : "TEGUISE",
+        "enlace" : "https://www.mainzu.com/es/producto/serie/teguise/teguise-ocre-decor",
+        "muestra" : "materiales/tgsOcreDc.jpg",
+        "material" : "materiales/tgsOcreDcMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Teguise Cotto Decor 15x30",
+        "serie" : "TEGUISE",
+        "enlace" : "https://www.mainzu.com/es/producto/serie/teguise/teguise-cotto-decor",
+        "muestra" : "materiales/tgsCottoDc.jpg",
+        "material" : "materiales/tgsCottoDcMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Carino Menta Green",
+        "serie" : "CARINO",
+        "enlace" : "https://www.mainzu.com/es/producto/serie/carino/carino-menta-green",
+        "muestra" : "materiales/crnMentaGreen.jpg",
+        "material" : "materiales/crnMentaGreenMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Carino Indigo",
+        "serie" : "CARINO",
+        "enlace" : "https://www.mainzu.com/es/producto/serie/carino/carino-indigo",
+        "muestra" : "materiales/crnIndigo.jpg",
+        "material" : "materiales/crnIndigoMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Carino Perla Gray",
+        "serie" : "CARINO",
+        "enlace" : "https://www.mainzu.com/es/producto/serie/carino/carino-perla-gray",
+        "muestra" : "materiales/crnPerlaGray.jpg",
+        "material" : "materiales/crnPerlaGrayMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Carino Deco Iberia",
+        "serie" : "CARINO",
+        "enlace" : "https://www.mainzu.com/es/producto/serie/carino/carino-deco-iberia",
+        "muestra" : "materiales/crnDcIberia.jpg",
+        "material" : "materiales/crnDcIberiaMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Carino Deco Marla",
+        "serie" : "CARINO",
+        "enlace" : "https://www.mainzu.com/es/producto/serie/carino/carino-deco-marla",
+        "muestra" : "materiales/crnDcMarla.jpg",
+        "material" : "materiales/crnDcMarlaMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Carino Deco Infantas",
+        "serie" : "CARINO",
+        "enlace" : "https://www.mainzu.com/es/producto/serie/carino/carino-deco-infantas",
+        "muestra" : "materiales/crnDcInfantas.jpg",
+        "material" : "materiales/crnDcInfantasMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Carino Deco Picos",
+        "serie" : "CARINO",
+        "enlace" : "https://www.mainzu.com/es/producto/serie/carino/carino-deco-picos",
+        "muestra" : "materiales/crnDcPicos.jpg",
+        "material" : "materiales/crnDcPicosMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Carino Deco Como",
+        "serie" : "CARINO",
+        "enlace" : "https://www.mainzu.com/es/producto/serie/carino/carino-deco-como",
+        "muestra" : "materiales/crnDcComo.jpg",
+        "material" : "materiales/crnDcComoMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Carino Deco Naxos",
+        "serie" : "CARINO",
+        "enlace" : "https://www.mainzu.com/es/producto/serie/carino/carino-deco-naxos",
+        "muestra" : "materiales/crnDcNaxos.jpg",
+        "material" : "materiales/crnDcNaxosMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Carino Deco Mylos",
+        "serie" : "CARINO",
+        "enlace" : "https://www.mainzu.com/es/producto/serie/carino/carino-deco-mylos",
+        "muestra" : "materiales/crnDcMylos.jpg",
+        "material" : "materiales/crnDcMylosMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Carino Deco Ydra",
+        "serie" : "CARINO",
+        "enlace" : "https://www.mainzu.com/es/producto/serie/carino/carino-deco-ydra",
+        "muestra" : "materiales/crnDcYdra.jpg",
+        "material" : "materiales/crnDcYdraMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Carino Deco Palma",
+        "serie" : "CARINO",
+        "enlace" : "https://www.mainzu.com/es/producto/serie/carino/carino-deco-palma",
+        "muestra" : "materiales/crnDcPalma.jpg",
+        "material" : "materiales/crnDcPalmaMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Carino Deco Hawai",
+        "serie" : "CARINO",
+        "enlace" : "https://www.mainzu.com/es/producto/serie/carino/decor-hawai",
+        "muestra" : "materiales/crnDcHawai.jpg",
+        "material" : "materiales/crnDcHawaiMaterial.jpg",
+        "aplicacion" : ["pared","suelo"]
+    },
+    {
+        "nombre" : "Cinque Terre Bianco",
+        "serie" : "CINQUE TERRE",
+        "enlace" : "https://www.mainzu.com/es/producto/serie/cinque-terre/cinque-terre-bianco",
+        "muestra" : "materiales/cnqTrBianco.jpg",
+        "material" : "materiales/cnqTrBianco.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cinque Terre Cream",
+        "serie" : "CINQUE TERRE",
+        "enlace" : "https://www.mainzu.com/es/producto/serie/cinque-terre/cinque-terre-cream",
+        "muestra" : "materiales/cnqTrCream.jpg",
+        "material" : "materiales/cnqTrCream.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cinque Terre Carmine",
+        "serie" : "CINQUE TERRE",
+        "enlace" : "https://www.mainzu.com/es/producto/serie/cinque-terre",
+        "muestra" : "materiales/cnqTrCarmine.jpg",
+        "material" : "materiales/cnqTrCarmine.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cinque Terre Emerald",
+        "serie" : "CINQUE TERRE",
+        "enlace" : "https://www.mainzu.com/es/producto/serie/cinque-terre/cinque-terre-emerald",
+        "muestra" : "materiales/cnqTrEmerald.jpg",
+        "material" : "materiales/cnqTrEmerald.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cinque Terre Ocean",
+        "serie" : "CINQUE TERRE",
+        "enlace" : "https://www.mainzu.com/es/producto/serie/cinque-terre/cinque-terre-ocean",
+        "muestra" : "materiales/cnqTrOcean.jpg",
+        "material" : "materiales/cnqTrOcean.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Cinque Terre Blu",
+        "serie" : "CINQUE TERRE",
+        "enlace" : "https://www.mainzu.com/es/producto/serie/cinque-terre/cinque-terre-blu",
+        "muestra" : "materiales/cnqTrBlu.jpg",
+        "material" : "materiales/cnqTrBlu.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Lucena Nieve",
+        "serie" : "LUCENA",
+        "enlace" : "https://www.bellacasaceramica.com/gallery/lucena/",
+        "muestra" : "materiales/lcnNieve.jpg",
+        "material" : "materiales/lcnNieveMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Lucena Blanco",
+        "serie" : "LUCENA",
+        "enlace" : "https://www.bellacasaceramica.com/gallery/lucena/",
+        "muestra" : "materiales/lcnBlanco.jpg",
+        "material" : "materiales/lcnBlancoMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Lucena Perla",
+        "serie" : "LUCENA",
+        "enlace" : "https://www.bellacasaceramica.com/gallery/lucena/",
+        "muestra" : "materiales/lcnPerla.jpg",
+        "material" : "materiales/lcnPerlaMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Lucena Arena",
+        "serie" : "LUCENA",
+        "enlace" : "https://www.bellacasaceramica.com/gallery/lucena/",
+        "muestra" : "materiales/lcnArena.jpg",
+        "material" : "materiales/lcnArenaMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Taj Mahal Sand Natural",
+        "serie" : "TAJ MAHAL",
+        "enlace" : "https://www.grespania.com/es/series/taj-mahal",
+        "muestra" : "materiales/tjMhSandNat.jpg",
+        "material" : "materiales/tjMhSandNatMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Taj Mahal Sand Pulido",
+        "serie" : "TAJ MAHAL",
+        "enlace" : "https://www.grespania.com/es/series/taj-mahal",
+        "muestra" : "materiales/tjMhSandPul.jpg",
+        "material" : "materiales/tjMhSandPulMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Taj Mahal White Natural",
+        "serie" : "TAJ MAHAL",
+        "enlace" : "https://www.grespania.com/es/series/taj-mahal",
+        "muestra" : "materiales/tjMhWhtNat.jpg",
+        "material" : "materiales/tjMhWhtNatMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Taj Mahal Blanco Pulido",
+        "serie" : "TAJ MAHAL",
+        "enlace" : "https://www.grespania.com/es/series/taj-mahal",
+        "muestra" : "materiales/tjMhWhtPul.jpg",
+        "material" : "materiales/tjMhWhtPulMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Santorini Azul",
+        "serie" : "SANTORINI",
+        "enlace" : "https://www.grespania.com/es/series/santorini",
+        "muestra" : "materiales/strnAzul.jpg",
+        "material" : "materiales/strnAzulMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Santorini Blanco",
+        "serie" : "SANTORINI",
+        "enlace" : "https://www.grespania.com/es/series/santorini",
+        "muestra" : "materiales/strnBlanco.jpg",
+        "material" : "materiales/strnBlancoMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Santorini Gris",
+        "serie" : "SANTORINI",
+        "enlace" : "https://www.grespania.com/es/series/santorini",
+        "muestra" : "materiales/strnGris.jpg",
+        "material" : "materiales/strnGrisMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Santorini Siena",
+        "serie" : "SANTORINI",
+        "enlace" : "https://www.grespania.com/es/series/santorini",
+        "muestra" : "materiales/strnSiena.jpg",
+        "material" : "materiales/strnSienaMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Valonia Taupe Natural",
+        "serie" : "VALONIA",
+        "enlace" : "https://www.grespania.com/es/productos/grespania-valonia-taupe-natural-60x120-9-mm?_gl=1*1lza6f9*_up*MQ..*_ga*MTczNjY3NjQxMS4xNzc2MzMxMDcx*_ga_Z7D0L5F1YW*czE3NzYzMzEwNzEkbzEkZzAkdDE3NzYzMzEwNzEkajYwJGwwJGgw",
+        "muestra" : "materiales/vlnTaupe.jpg",
+        "material" : "materiales/vlnTaupeMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Valonia Antracita Natural",
+        "serie" : "VALONIA",
+        "enlace" : "https://www.grespania.com/es/productos/grespania-valonia-antracita-natural-60x120-9-mm?_gl=1*1r4xmxl*_up*MQ..*_ga*MTczNjY3NjQxMS4xNzc2MzMxMDcx*_ga_Z7D0L5F1YW*czE3NzYzMzEwNzEkbzEkZzEkdDE3NzYzMzEwNzYkajU1JGwwJGgw",
+        "muestra" : "materiales/vlnAntracita.jpg",
+        "material" : "materiales/vlnAntracitaMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Valonia Azul Natural",
+        "serie" : "VALONIA",
+        "enlace" : "https://www.grespania.com/es/productos/grespania-valonia-azul-natural-60x120-9-mm?_gl=1*1r4xmxl*_up*MQ..*_ga*MTczNjY3NjQxMS4xNzc2MzMxMDcx*_ga_Z7D0L5F1YW*czE3NzYzMzEwNzEkbzEkZzEkdDE3NzYzMzEwNzYkajU1JGwwJGgw",
+        "muestra" : "materiales/vlnAzul.jpg",
+        "material" : "materiales/vlnAzulMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Valonia Blanco",
+        "serie" : "VALONIA",
+        "enlace" : "https://www.grespania.com/es/productos/grespania-valonia-blanco-natural-60x120-9-mm?_gl=1*1r4xmxl*_up*MQ..*_ga*MTczNjY3NjQxMS4xNzc2MzMxMDcx*_ga_Z7D0L5F1YW*czE3NzYzMzEwNzEkbzEkZzEkdDE3NzYzMzEwNzYkajU1JGwwJGgw",
+        "muestra" : "materiales/vlnBlanco.jpg",
+        "material" : "materiales/vlnBlancoMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Valonia Gris Natural",
+        "serie" : "VALONIA",
+        "enlace" : "https://www.grespania.com/es/productos/grespania-valonia-gris-natural-60x120-9-mm?_gl=1*1r4xmxl*_up*MQ..*_ga*MTczNjY3NjQxMS4xNzc2MzMxMDcx*_ga_Z7D0L5F1YW*czE3NzYzMzEwNzEkbzEkZzEkdDE3NzYzMzEwNzYkajU1JGwwJGgw",
+        "muestra" : "materiales/vlnGris.jpg",
+        "material" : "materiales/vlnGrisMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Imperium Blue Roma ",
+        "serie" : "Imperium",
+        "enlace" : "https://www.grespania.com/es/series/blue-roma",
+        "muestra" : "materiales/imprmBlueRoma.jpg",
+        "material" : "materiales/imprmBlueRomaMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Village Grey",
+        "serie" : "VILLAGE",
+        "enlace" : "https://www.grespania.com/es/series/village",
+        "muestra" : "materiales/vllgGrey.jpg",
+        "material" : "materiales/vllgGreyMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Village Ice",
+        "serie" : "VILLAGE",
+        "enlace" : "https://www.grespania.com/es/series/village",
+        "muestra" : "materiales/vllgIce.jpg",
+        "material" : "materiales/vllgIceMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Village Sand",
+        "serie" : "VILLAGE",
+        "enlace" : "https://www.grespania.com/es/series/village",
+        "muestra" : "materiales/vllgSand.jpg",
+        "material" : "materiales/vllgSandMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Village Smoke",
+        "serie" : "VILLAGE",
+        "enlace" : "https://www.grespania.com/es/series/village",
+        "muestra" : "materiales/vllgSmoke.jpg",
+        "material" : "materiales/vllgSmokeMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Village Vison",
+        "serie" : "VILLAGE",
+        "enlace" : "https://www.grespania.com/es/series/village",
+        "muestra" : "materiales/vllgVison.jpg",
+        "material" : "materiales/vllgVisonMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Village Saumur Vison",
+        "serie" : "VILLAGE",
+        "enlace" : "https://www.grespania.com/es/series/village",
+        "muestra" : "materiales/vllgSumVison.jpg",
+        "material" : "materiales/vllgSumVison.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Village Saumur Grey",
+        "serie" : "VILLAGE",
+        "enlace" : "https://www.grespania.com/es/series/village",
+        "muestra" : "materiales/vllgSumGrey.jpg",
+        "material" : "materiales/vllgSumGrey.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Village Saumur ICE",
+        "serie" : "VILLAGE",
+        "enlace" : "https://www.grespania.com/es/series/village",
+        "muestra" : "materiales/vllgSumIce.jpg",
+        "material" : "materiales/vllgSumIce.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Village Saumur Sand",
+        "serie" : "VILLAGE",
+        "enlace" : "https://www.grespania.com/es/series/village",
+        "muestra" : "materiales/vllgSumSand.jpg",
+        "material" : "materiales/vllgSumSand.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Village Saumur Smoke",
+        "serie" : "VILLAGE",
+        "enlace" : "https://www.grespania.com/es/series/village",
+        "muestra" : "materiales/vllgSumSmoke.jpg",
+        "material" : "materiales/vllgSumSmoke.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Village Briare Smoke",
+        "serie" : "VILLAGE",
+        "enlace" : "https://www.grespania.com/es/series/village",
+        "muestra" : "materiales/vllgBrSmoke.jpg",
+        "material" : "materiales/vllgBrSmokeMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Village Briare Sand",
+        "serie" : "VILLAGE",
+        "enlace" : "https://www.grespania.com/es/series/village",
+        "muestra" : "materiales/vllgBrSand.jpg",
+        "material" : "materiales/vllgBrSandMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Village Briare ICE",
+        "serie" : "VILLAGE",
+        "enlace" : "https://www.grespania.com/es/series/village",
+        "muestra" : "materiales/vllgBrIce.jpg",
+        "material" : "materiales/vllgBrIceMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Village Briare Grey",
+        "serie" : "VILLAGE",
+        "enlace" : "https://www.grespania.com/es/series/village",
+        "muestra" : "materiales/vllgBrGrey.jpg",
+        "material" : "materiales/vllgBrGreyMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Village Briare Vison",
+        "serie" : "VILLAGE",
+        "enlace" : "https://www.grespania.com/es/series/village",
+        "muestra" : "materiales/vllgBrVison.jpg",
+        "material" : "materiales/vllgBrVisonMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Arles Arena",
+        "serie" : "ARLES",
+        "enlace" : "https://www.grespania.com/es/series/arles",
+        "muestra" : "materiales/arlArena.jpg",
+        "material" : "materiales/arlArena.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Arles Blanco",
+        "serie" : "ARLES",
+        "enlace" : "https://www.grespania.com/es/series/arles",
+        "muestra" : "materiales/arlBlanco.jpg",
+        "material" : "materiales/arlBlanco.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Arles Gris",
+        "serie" : "ARLES",
+        "enlace" : "https://www.grespania.com/es/series/arles",
+        "muestra" : "materiales/arlGris.jpg",
+        "material" : "materiales/arlGris.jpg",
+        "aplicacion" : ["suelo"]
+    },
+    {
+        "nombre" : "Tribeca Basalt",
+        "serie" : "TRIBECA",
+        "enlace" : "https://nais.es/es/azulejos/coleccion_tribeca/producto_4981_tribeca-basalt-6x24,6cm/",
+        "muestra" : "materiales/trbcBasalt.jpg",
+        "material" : "materiales/trbcBasaltMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Tribeca Blue Note",
+        "serie" : "TRIBECA",
+        "enlace" : "https://nais.es/es/azulejos/coleccion_tribeca/producto_4986_tribeca-blue-note-6x24,6cm/",
+        "muestra" : "materiales/trbcBlueNote.jpg",
+        "material" : "materiales/trbcBlueNoteMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Tribeca Grey Whisper",
+        "serie" : "TRIBECA",
+        "enlace" : "https://nais.es/es/azulejos/coleccion_tribeca/producto_4980_tribeca-grey-whisper-6x24,6cm/",
+        "muestra" : "materiales/trbcGrWhisper.jpg",
+        "material" : "materiales/trbcGrWhisperMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Tribeca Gypsum White",
+        "serie" : "TRIBECA",
+        "enlace" : "https://nais.es/es/azulejos/coleccion_tribeca/producto_4978_tribeca-gypsum-white-6x24,6cm/",
+        "muestra" : "materiales/trbcGypWht.jpg",
+        "material" : "materiales/trbcGypWhtMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Tribeca Oatmeal",
+        "serie" : "TRIBECA",
+        "enlace" : "https://nais.es/es/azulejos/coleccion_tribeca/producto_4979_tribeca-oatmeal-6x24,6cm/",
+        "muestra" : "materiales/trbcOatmeal.jpg",
+        "material" : "materiales/trbcOatmealMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Tribeca Pollen",
+        "serie" : "TRIBECA",
+        "enlace" : "https://nais.es/es/azulejos/coleccion_tribeca/producto_4982_tribeca-pollen-6x24,6cm/",
+        "muestra" : "materiales/trbcPollen.jpg",
+        "material" : "materiales/trbcPollenMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Tribeca Sage Green",
+        "serie" : "TRIBECA",
+        "enlace" : "https://nais.es/es/azulejos/coleccion_tribeca/producto_4983_tribeca-sage-green-6x24,6cm/",
+        "muestra" : "materiales/trbcSgGreen.jpg",
+        "material" : "materiales/trbcSgGreenMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Tribeca Seaglass Mint",
+        "serie" : "TRIBECA",
+        "enlace" : "https://nais.es/es/azulejos/coleccion_tribeca/producto_4987_tribeca-seaglass-mint-6x24,6cm/",
+        "muestra" : "materiales/trbcSeaglMint.jpg",
+        "material" : "materiales/trbcSeaglMintMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Tribeca Tea Rose",
+        "serie" : "TRIBECA",
+        "enlace" : "https://nais.es/es/azulejos/coleccion_tribeca/producto_4985_tribeca-tea-rose-6x24,6cm/",
+        "muestra" : "materiales/trbcTeaRose.jpg",
+        "material" : "materiales/trbcTeaRoseMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Tribeca WaterColour",
+        "serie" : "TRIBECA",
+        "enlace" : "https://nais.es/es/azulejos/coleccion_tribeca/producto_4984_tribeca-watercolour-6x24,6cm/",
+        "muestra" : "materiales/trbcWaterCl.jpg",
+        "material" : "materiales/trbcWaterClMaterial.jpg",
+        "aplicacion" : ["pared"]
+    },
+    {
+        "nombre" : "Tribeca ",
+        "serie" : "TRIBECA",
+        "enlace" : "",
+        "muestra" : "materiales/trbc.jpg",
+        "material" : "materiales/trbcMaterial.jpg",
+        "aplicacion" : ["suelo"]
+    }
+]
