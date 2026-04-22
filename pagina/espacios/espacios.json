@@ -6,29 +6,79 @@
             "zonas" : {
                 "pared-lateral" : {
                     "mask" : "bañoCalacata/baño-calacata-mascara-pared-lateral.png",
-                    "tipo" : "pared-lateral"
+                    "tipo" : "pared-lateral",
+                    "zona" : "pared",
+                    "material" : "Calacata Oro",
+                    "serieMat" : "CALACATA",
+                    "infoMat" : "https://www.pamesa.com/serie/CALACATAGOLD.html?s=765",
+                    "muestraMat" : "materiales/calacataOro.png"
                 },
                 "suelo" : {
                     "mask" : "bañoCalacata/baño-calacata-mascara-suelo.png",
-                    "tipo" : "suelo"
+                    "tipo" : "suelo",
+                    "zona" : "suelo",
+                    "material" : "Essenza Bianco",
+                    "serieMat" : "ESSENZA",
+                    "infoMat" : "https://www.pamesa.com/seriep/ESSENZA_0178690011286.html",
+                    "muestraMat" : "https://www.pamesa.com/ERP/4.0/empresas/151/045/imagenes/t00010602/0178690011286.jpg"
+                    
                 }
             }
         },
         {
-            "id" : "bañoBogart",
-            "imagen" : "bañoBogart/baño2-base.jpg",
+            "id" : "banoBogart",
+            "imagen" : "banoBogart/bano2-base.jpg",
             "zonas" : {
                 "pared-lateral" : {
-                    "mask" : "bañoBogart/baño2-mascara-pared-lateral.png",
-                    "tipo" : "pared-lateral"
+                    "mask" : "banoBogart/bano2-mascara-pared-lateral.png",
+                    "tipo" : "pared-lateral",
+                    "zona" : "pared",
+                    "material" : "Bogart Beige",
+                    "serieMat" : "BOGART",
+                    "infoMat" : "https://www.pamesa.com/seriep/881_0172500023792.html",
+                    "muestraMat" : "https://www.pamesa.com/ERP/4.0/empresas/151/045/imagenes/t00010602/0172500023792.jpg"
                 },
                 "pared-frontal" : {
-                    "mask" : "bañoBogart/baño2-mascara-pared-frontal.png",
-                    "tipo" : "pared"
+                    "mask" : "banoBogart/bano2-mascara-pared-frontal.png",
+                    "tipo" : "pared",
+                    "zona" : "pared",
+                    "material" : "Bogart Rlv. Blanco",
+                    "serieMat" : "BOGART",
+                    "infoMat" : "https://www.pamesa.com/seriep/881_0172500024198.html",
+                    "muestraMat" : "https://www.pamesa.com/ERP/4.0/empresas/151/045/imagenes/t00010602/0172500024198.jpg"
                 },
                 "suelo" : {
-                    "mask" : "bañoBogart/baño2-mascara-suelo.png",
-                    "tipo" : "suelo"
+                    "mask" : "banoBogart/bano2-mascara-suelo.png",
+                    "tipo" : "suelo",
+                    "zona" : "suelo",
+                    "material" : "Terrazzo Saggio",
+                    "serieMat" : "TERRAZZO",
+                    "infoMat" : "https://www.pamesa.com/seriep/TERRAZZO_0178400023667.html",
+                    "muestraMat" : "https://www.pamesa.com/ERP/4.0/empresas/151/045/imagenes/t00010602/0178400023667.jpg"
+                }
+            }
+        },
+        {
+            "id" : "dormitorioAstrale",
+            "imagen" : "dormitorioAstrale/dormitorio-astrale-base.jpg",
+            "zonas" : {
+                "pared-lateral" : {
+                    "mask" : "dormitorioAstrale/dormitorio-astrale-mascara-pared.png",
+                    "tipo" : "pared-lateral",
+                    "zona" : "pared",
+                    "material" : "Bogart Marfil",
+                    "serieMat" : "BOGART",
+                    "infoMat" : "https://www.pamesa.com/seriep/881_0172500023790.html",
+                    "muestraMat" : "https://www.pamesa.com/ERP/4.0/empresas/151/045/imagenes/t00010602/0172500023790.jpg"
+                },
+                "suelo" : {
+                    "mask" : "dormitorioAstrale/dormitorio-astrale-mascara-suelo.png",
+                    "tipo" : "suelo",
+                    "zona" : "suelo",
+                    "material" : "Bogart Marfil",
+                    "serieMat" : "BOGART",
+                    "infoMat" : "https://www.pamesa.com/seriep/881_0172500023790.html",
+                    "muestraMat" : "https://www.pamesa.com/ERP/4.0/empresas/151/045/imagenes/t00010602/0172500023790.jpg"
                 }
             }
         }

@@ -2006,13 +2006,5 @@
         "muestra" : "materiales/trbcWaterCl.jpg",
         "material" : "materiales/trbcWaterClMaterial.jpg",
         "aplicacion" : ["pared"]
-    },
-    {
-        "nombre" : "Tribeca ",
-        "serie" : "TRIBECA",
-        "enlace" : "",
-        "muestra" : "materiales/trbc.jpg",
-        "material" : "materiales/trbcMaterial.jpg",
-        "aplicacion" : ["suelo"]
     }
 ]
