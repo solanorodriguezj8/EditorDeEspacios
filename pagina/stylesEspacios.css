@@ -110,7 +110,6 @@ mask-repeat: no-repeat;
   background-size: 400px;
   background-repeat: repeat;
 
-  transform: skewY(5deg) scaleY(1.5);
 }
 /* PANEL LATERAL */
 .panel {
@@ -198,4 +197,24 @@ border: 2px solid #333;
     font-size:18px;
     margin: 0;
     margin-top: 10px;
+}
+/*CSS para el volver*/
+.volver{
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  vertical-align: top;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.volver img{
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+.volver :hover{
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+  transition: all 0.2s ease;
 }

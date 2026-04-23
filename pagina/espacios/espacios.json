@@ -4,9 +4,9 @@
             "id" : "bañoCalacata",
             "imagen" : "bañoCalacata/baño-calacata-base.jpg",
             "zonas" : {
-                "pared-lateral" : {
+                "pared" : {
                     "mask" : "bañoCalacata/baño-calacata-mascara-pared-lateral.png",
-                    "tipo" : "pared-lateral",
+                    "tipo" : "pared",
                     "zona" : "pared",
                     "material" : "Calacata Oro",
                     "serieMat" : "CALACATA",
@@ -33,6 +33,7 @@
                     "mask" : "banoBogart/bano2-mascara-pared-lateral.png",
                     "tipo" : "pared-lateral",
                     "zona" : "pared",
+                    "skewY": "15",
                     "material" : "Bogart Beige",
                     "serieMat" : "BOGART",
                     "infoMat" : "https://www.pamesa.com/seriep/881_0172500023792.html",
@@ -62,9 +63,9 @@
             "id" : "dormitorioAstrale",
             "imagen" : "dormitorioAstrale/dormitorio-astrale-base.jpg",
             "zonas" : {
-                "pared-lateral" : {
+                "pared" : {
                     "mask" : "dormitorioAstrale/dormitorio-astrale-mascara-pared.png",
-                    "tipo" : "pared-lateral",
+                    "tipo" : "pared",
                     "zona" : "pared",
                     "material" : "Bogart Marfil",
                     "serieMat" : "BOGART",
@@ -79,6 +80,70 @@
                     "serieMat" : "BOGART",
                     "infoMat" : "https://www.pamesa.com/seriep/881_0172500023790.html",
                     "muestraMat" : "https://www.pamesa.com/ERP/4.0/empresas/151/045/imagenes/t00010602/0172500023790.jpg"
+                }
+            }
+        },
+        {
+            "id" : "dormitorioCalacata",
+            "imagen" : "dormitorioCalacata/dormitorio-calacata-base.jpg",
+            "zonas" : {
+                "pared-lateral" : {
+                    "mask" : "dormitorioCalacata/dormitorio-calacata-mascara-pared.png",
+                    "tipo" : "pared-lateral",
+                    "zona" : "pared",
+                    "skewY": "-3",
+                    "material" : "Calacata Oro",
+                    "serieMat" : "CALACATA",
+                    "infoMat" : "https://www.pamesa.com/serie/CALACATAGOLD.html?s=765",
+                    "muestraMat" : "materiales/calacataOro.png"
+                },
+                "suelo" : {
+                    "mask" : "dormitorioCalacata/dormitorio-calacata-mascara-suelo.png",
+                    "tipo" : "suelo",
+                    "zona" : "suelo",
+                    "material" : "CR. Rovere Honey",
+                    "serieMat" : "ROVERE",
+                    "infoMat" : "https://www.pamesa.com/seriep/480_0172853589741.html",
+                    "muestraMat" : "https://www.pamesa.com/ERP/4.0/empresas/151/045/imagenes/t00010602/0172853589741.jpg"
+                }
+            }
+        },
+        {
+            "id" : "salonCalacata",
+            "imagen" : "salonCalacata/salon-calacata-base.jpg",
+            "zonas" : {
+                "suelo" : {
+                    "mask" : "salonCalacata/salon-calacata-mascara-suelo.png",
+                    "tipo" : "suelo",
+                    "zona" : "suelo",
+                    "material" : "Calacata Oro",
+                    "serieMat" : "CALACATA",
+                    "infoMat" : "https://www.pamesa.com/serie/CALACATAGOLD.html?s=765",
+                    "muestraMat" : "materiales/calacataOro.png"
+                }
+            }
+        },
+        {
+            "id" : "salonLin",
+            "imagen" : "salonLin/salon-lin-base.jpg",
+            "zonas" : {
+                "pared-frontal" : {
+                    "mask" : "salonLin/salon-lin-mascara-pared.png",
+                    "tipo" : "pared",
+                    "zona" : "pared",
+                    "material" : "Lin Blanco",
+                    "serieMat" : "LIN",
+                    "infoMat" : "https://www.pamesa.com/seriep/891_0318690024207.html",
+                    "muestraMat" : "materiales/linBlanco.jpg"
+                },
+                "suelo" : {
+                    "mask" : "salonLin/salon-lin-mascara-suelo.png",
+                    "tipo" : "suelo",
+                    "zona" : "suelo",
+                    "material" : "Bogart Beige",
+                    "serieMat" : "BOGART",
+                    "infoMat" : "https://www.pamesa.com/seriep/881_0172500023792.html",
+                    "muestraMat" : "https://www.pamesa.com/ERP/4.0/empresas/151/045/imagenes/t00010602/0172500023792.jpg"
                 }
             }
         }

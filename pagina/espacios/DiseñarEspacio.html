@@ -18,6 +18,11 @@
      <!--Panel de materiales -->
 
     <div class="panel" id="panel">
+        <div class="volver">
+            <a href="../index.html" title="Volver">
+                <img src="../img/volver.png" title="Volver">
+            </a>
+        </div>
         <div id="popup" class="popup hidden">
             <div class="popup-content" id="popup-content"></div>
         </div>
@@ -80,6 +85,7 @@ async function cargarEspacio(){
         }else if(zona.tipo === "pared-lateral"){
             const tex = document.createElement("div");
             tex.classList.add("texturaLateral");
+            tex.style.transform = `skewY(${zona.skewY}deg) scaleY(1.5)`
             div.appendChild(tex);
             titulo.textContent = "Materiales pared lateral"
         }else{

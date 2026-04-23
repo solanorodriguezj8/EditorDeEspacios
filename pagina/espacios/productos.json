@@ -5,7 +5,7 @@
         "enlace": "https://www.pamesa.com/serie/CALACATAGOLD.html?s=765",
         "muestra": "materiales/calacataOro.png",
         "material": "materiales/calacataOroMaterial.png",
-        "aplicacion": ["pared"]
+        "aplicacion": ["pared","suelo"]
     },
     {
         "nombre": "Nobu Roble",
