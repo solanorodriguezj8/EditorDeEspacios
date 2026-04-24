@@ -10,12 +10,8 @@
 
 <div class="container">
 
-    <!-- Imagen base -->
-
     <div class="room" id = "room">
     </div>
-
-     <!--Panel de materiales -->
 
     <div class="panel" id="panel">
         <div class="volver">
@@ -30,19 +26,12 @@
 </div>
     
 <script>
-// ==========================
-// CONFIGURADOR DINÁMICO
-// ==========================
-
 const room = document.getElementById("room");
 
-// leer parámetro de la URL
 const params = new URLSearchParams(window.location.search);
 const espacioID = params.get("espacio");
-//Variable que almacena el material con el que viene la imagen, para cuando se intente aplicar no se aplique nada 
 const materialesPDefecto = {};
 
-// cargar espacio desde JSON
 async function cargarEspacio(){
     const res = await fetch("./espacios.json");
     const data = await res.json();
@@ -55,13 +44,11 @@ async function cargarEspacio(){
         return;
     }
 
-    // imagen base
     const img = document.createElement("img");
     img.src = espacio.imagen;
     img.classList.add("base");
     room.appendChild(img);
 
-    // zonas dinámicas
     Object.entries(espacio.zonas).forEach(([id, zona]) => {
 
         const div = document.createElement("div");
@@ -71,44 +58,51 @@ async function cargarEspacio(){
         div.style.maskImage = `url(${zona.mask})`;
         div.style.webkitMaskImage = `url(${zona.mask})`;
         
-        //A partir de aqui vamos a generar en el panel lo que necesita o tiene la imagen para editarla
-        //Creamos un h3 para indicar de que zona es
         const titulo = document.createElement('h3');
         
-
-        // añadir textura si hace falta
         if(zona.tipo === "suelo"){
             const tex = document.createElement("div");
             tex.classList.add("texturaSuelo");
             div.appendChild(tex);
             titulo.textContent = "Materiales suelo";
-        }else if(zona.tipo === "pared-lateral"){
+        }else{
             const tex = document.createElement("div");
             tex.classList.add("texturaLateral");
-            tex.style.transform = `skewY(${zona.skewY}deg) scaleY(1.5)`
+            if(zona.skewY) tex.style.transform = `skewY(${zona.skewY}deg) scaleY(1.5)`;
             div.appendChild(tex);
-            titulo.textContent = "Materiales pared lateral"
-        }else{
-            titulo.textContent = ("Materiales " + zona.tipo); 
+            titulo.textContent = "Materiales " + zona.tipo;
         }
         materialesPDefecto[id] = zona.material;
 
+        if(zona.esquinas){
+            Object.entries(zona.esquinas).forEach(([key,esquina]) => {
+                const esquinaDiv = document.createElement("div");
+                esquinaDiv.id = `esquina-${id}-${key}`;
+                esquinaDiv.classList.add("mask", "esquina", `esquina-${id}`);
 
-        //Creamos el boton para ver los materiales
+                esquinaDiv.style.maskImage = `url(${esquina.mask})`;
+                esquinaDiv.style.webkitMaskImage = `url(${esquina.mask})`;
+
+                const tex = document.createElement("div");
+                tex.classList.add("texturaLateral");
+                if(esquina.skewY) tex.style.transform = `skewY(${esquina.skewY}deg) scaleY(1.5)`;
+                esquinaDiv.appendChild(tex);
+                
+                room.appendChild(esquinaDiv);
+            });
+        }
+
         const btn = document.createElement('button');
         btn.onclick = () =>{
-            CargarMateriales(zona.zona,id);
+            CargarMateriales(zona.zona || zona.tipo, id);
         };
         btn.textContent = "Ver materiales"
-        //Lo añadimos al panel
         panel.appendChild(titulo);
         panel.appendChild(btn)
 
-        //Creamos y agregamos un div, el cual sirve para poder tener info del material aplicado
         const infoDiv = document.createElement("div");
         infoDiv.id = `info-${id}`;
         infoDiv.classList.add("info-material");
-        //Rellenamos con un contenido inicial por defecto
         infoDiv.innerHTML = `<img src="${zona.muestraMat}">
                             <div>
                                 <strong><p>Nombre: ${zona.material}</p>
@@ -123,12 +117,6 @@ async function cargarEspacio(){
 
 cargarEspacio();
 
-
-// ==========================
-// POPUP MATERIALES
-// ==========================
-
-// cerrar popup al clicar fuera
 document.getElementById("popup").addEventListener("click", function(e) {
     if (e.target === this) {
         this.classList.add("hidden");
@@ -136,7 +124,6 @@ document.getElementById("popup").addEventListener("click", function(e) {
 });
 
 async function CargarMateriales(zona, zonaIMG) {
-
     const popup = document.getElementById('popup');
     const contenedor = document.getElementById("popup-content");
 
@@ -148,7 +135,6 @@ async function CargarMateriales(zona, zonaIMG) {
 
     contenedor.innerHTML = "";
 
-    // agrupar por serie
     const agrupados = materiales.reduce((acc,material)=>{
         if(!acc[material.serie]) acc[material.serie] = [];
         acc[material.serie].push(material);
@@ -188,46 +174,45 @@ async function CargarMateriales(zona, zonaIMG) {
     });
 }
 
-
-// ==========================
-// APLICAR MATERIAL
-// ==========================
-
 function aplicarMaterial(zonaCambiar, material){
-    let elemento;
-
-    if(zonaCambiar === "suelo"){
-        elemento = document.querySelector("#suelo .texturaSuelo");
-    }else if(zonaCambiar === "pared-lateral"){
-        elemento = document.querySelector("#pared-lateral .texturaLateral");
-    }else{
-        elemento = document.getElementById(zonaCambiar);
-    }
+    const elemento = document.querySelector(`#${zonaCambiar} .texturaSuelo, #${zonaCambiar} .texturaLateral`);
 
     if(materialesPDefecto[zonaCambiar] != material.nombre){
 
-        const capas = [material.material];
-
         function rand(min,max){return Math.random() * (max-min)+min};
 
-        const imagenes = capas.map(c=> `url(${c})`).join(', ');
-        const tam = capas.map(() => `${rand(200,250)}px`).join(', ');
-        const repetir = capas.map(()=> `repeat`).join(', ');
-        const positions = capas.map(() =>
-            `${rand(0,500)}px ${rand(0,500)}px`).join(', ');
+        const imagenes = `url(${material.material})`;
+        const tam = `${rand(200,250)}px`;
+        const repetir = `repeat`;
+        const positions = `${rand(0,500)}px ${rand(0,500)}px`;
+        
+        if(elemento){
+            elemento.style.backgroundImage = imagenes;
+            elemento.style.opacity = 1;
+            elemento.style.backgroundSize = tam;
+            elemento.style.backgroundRepeat = repetir;
+            elemento.style.backgroundPosition = positions;
+        }
 
-        elemento.style.backgroundImage = imagenes;
-        elemento.style.opacity = 1;
-        elemento.style.backgroundSize = tam;
-        elemento.style.backgroundRepeat = repetir;
-        elemento.style.backgroundPosition = positions;
+        document.querySelectorAll(`.esquina-${zonaCambiar}`).forEach(el=>{
+            const tex = el.querySelector('.texturaLateral');
+            if(tex){
+                tex.style.backgroundImage = imagenes;
+                tex.style.opacity = 1;
+                tex.style.backgroundSize = tam;
+                tex.style.backgroundRepeat = repetir;
+                tex.style.backgroundPosition = positions;
+            }
+        });
 
     } else {
-        elemento.style.opacity = 0;
+        if(elemento) elemento.style.opacity = 0;
+        document.querySelectorAll(`.esquina-${zonaCambiar} .texturaLateral`).forEach(tex => {
+            tex.style.opacity = 0;
+        });
     }
-    //Llamamos al actualizar la info del panel
+    
     actualizarInfoPanel(zonaCambiar,material)
-
 }
 
 function actualizarInfoPanel(zona,material){
@@ -239,7 +224,6 @@ function actualizarInfoPanel(zona,material){
                                 <p>Serie: ${material.serie}</p>
                                 <a href="${material.enlace}">Más información</a></strong>
                             </div>`
-
 }
 </script>
 </body>

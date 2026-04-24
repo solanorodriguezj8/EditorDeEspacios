@@ -33,11 +33,17 @@
                     "mask" : "banoBogart/bano2-mascara-pared-lateral.png",
                     "tipo" : "pared-lateral",
                     "zona" : "pared",
-                    "skewY": "15",
+                    "skewY": "10",
                     "material" : "Bogart Beige",
                     "serieMat" : "BOGART",
                     "infoMat" : "https://www.pamesa.com/seriep/881_0172500023792.html",
-                    "muestraMat" : "https://www.pamesa.com/ERP/4.0/empresas/151/045/imagenes/t00010602/0172500023792.jpg"
+                    "muestraMat" : "https://www.pamesa.com/ERP/4.0/empresas/151/045/imagenes/t00010602/0172500023792.jpg",
+                    "esquinas" : {
+                        "esquina" : {
+                            "mask" : "banoBogart/bano2-mascara-pared-lateral-esquina.png",
+                            "skewY": "0"
+                        }
+                    }
                 },
                 "pared-frontal" : {
                     "mask" : "banoBogart/bano2-mascara-pared-frontal.png",
@@ -70,7 +76,13 @@
                     "material" : "Bogart Marfil",
                     "serieMat" : "BOGART",
                     "infoMat" : "https://www.pamesa.com/seriep/881_0172500023790.html",
-                    "muestraMat" : "https://www.pamesa.com/ERP/4.0/empresas/151/045/imagenes/t00010602/0172500023790.jpg"
+                    "muestraMat" : "https://www.pamesa.com/ERP/4.0/empresas/151/045/imagenes/t00010602/0172500023790.jpg",
+                    "esquinas" : {
+                        "esquina" : {
+                            "mask" : "dormitorioAstrale/dormitorio-astrale-mascara-pared-esquina.png",
+                            "skewY": "5"
+                        }
+                    }
                 },
                 "suelo" : {
                     "mask" : "dormitorioAstrale/dormitorio-astrale-mascara-suelo.png",
@@ -134,7 +146,13 @@
                     "material" : "Lin Blanco",
                     "serieMat" : "LIN",
                     "infoMat" : "https://www.pamesa.com/seriep/891_0318690024207.html",
-                    "muestraMat" : "materiales/linBlanco.jpg"
+                    "muestraMat" : "materiales/linBlanco.jpg",
+                    "esquinas" : {
+                        "esquina" : {
+                            "mask" : "salonLin/salon-lin-mascara-pared-esquina.png",
+                            "skewY": "15"
+                        }
+                    }
                 },
                 "suelo" : {
                     "mask" : "salonLin/salon-lin-mascara-suelo.png",
